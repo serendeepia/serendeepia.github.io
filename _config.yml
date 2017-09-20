@@ -1,0 +1,7 @@
+title: Serendeepia
+#google_analytics:
+theme: jekyll-theme-minimal
+exclude:
+  - 'serendeepia.github.io.iml'
+  - 'Gemfile'
+  - 'Gemfile.lock'
