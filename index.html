@@ -1,0 +1,49 @@
+---
+layout: mylayout
+title: Home
+---
+<div class="slogan">
+    <p>
+        <cite>slogan or mission here. Serendeepia is an R&D lab focused on practical applications of
+            artificial intelligence (AI) and machine learning technology. </cite>
+    </p>
+    <p style="text-align: center">
+        <br>
+        <a href="mailto:contact@serendeepia.com" type="button" class="btn btn-primary">Get in
+            touch</a>
+    </p>
+</div>
+
+<h2>Who</h2>
+
+<p>A bit about us as a team</p>
+
+<h2>What</h2>
+
+<p>We basically do consulting+research+mvp</p>
+
+<h3>Research</h3>
+
+<h3>MVP</h3>
+
+<h3>Rinse and repeat</h3>
+
+<h3>Deploy when ready</h3>
+
+<h2>Technology</h2>
+
+<p>TensorFlow, GitHub, Puthon, etc</p>
+
+<h2>Life after us</h2>
+
+<p>in-house teaching?</p>
+
+<p><br></p>
+
+{% assign sorted_posts = site.posts | sort: date | reverse %}
+{% for post in sorted_posts %}
+
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<p>{{ post.summary }}... <a href="{{ post.url }}">continue reading</a></p>
+
+{% endfor %}

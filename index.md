@@ -1,6 +1,0 @@
----
-layout: mylayout
-title: Home
----
-
-

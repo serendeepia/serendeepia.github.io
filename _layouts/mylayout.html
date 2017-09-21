@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" href="/favicon.ico">
     <title>{{ site.title | default: site.github.repository_name }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!--<link rel="stylesheet" href="{{ '/assets/css/theme.css?v=' | append: site.github.build_revision | relative_url }}">-->
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,20 +16,35 @@
 <body>
 <div class="wrapper">
     <header>
-        <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="/">
+            <img src="/assets/logo.svg" width="52px"/>
+            <span>{{ site.title | default: site.github.repository_name }}</span>
+        </a></h1>
+        <nav class="main-nav">
+            <ul class="nav nav-tabs">
+                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+                {% for p in navigation_pages %}{% if p.navigation_weight %}
+                <li{% if p.url == page.url %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+                {% endif %}{% endfor %}
+            </ul>
+        </nav>
+        <div style="clear: both"></div>
     </header>
-    <nav class="main-nav">
-        <ul>
-            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
-            {% for p in navigation_pages %}{% if p.navigation_weight %}
-            <li><a href="{{ p.url }}"{% if p.url == page.url %} class="active"{% endif %}>{{ p.title }}</a></li>
-            {% endif %}{% endfor %}
-        </ul>
-    </nav>
     <section>
         {{ content }}
     </section>
-    <footer></footer>
+    <footer>
+        <p><em>Serendeepia is an R&D lab focused on practical applications of artificial intelligence (AI) and machine learning technology. We build custom solutions and help organizations develop their own capability to use AI.</em></p>
+        <p><span class="icon">
+            <svg viewBox="0 4.801209 28.3499966 18.7475815">
+            <path fill="#828282"
+                  d="M15.699194,17.7568531c-0.4572582,0.3048401-0.9145174,0.6096783-1.5241938,0.6096783 c-0.6096773,0-1.0669355-0.15242-1.5241938-0.6096783L0,6.7826605v16.1564522C0,23.2439518,0.3048387,23.54879,0.6096774,23.54879 h27.1306419c0.3048401,0,0.6096764-0.3048382,0.6096764-0.6096764V6.7826605L15.699194,17.7568531z"/>
+            <path fill="#828282"
+                  d="M14.9370966,15.7754021L27.587904,4.801209H0.9145162l12.6508064,10.9741936 C13.870162,16.0802422,14.4798384,16.0802422,14.9370966,15.7754021z"/>
+            </svg>
+        </span>contact@serendeepia.com</p>
+        <p>© All rights reserved</p>
+    </footer>
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
