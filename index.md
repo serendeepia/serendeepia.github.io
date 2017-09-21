@@ -9,7 +9,7 @@ title: Home
     </p>
     <p style="text-align: center">
         <br>
-        <a href="mailto:contact@serendeepia.com" type="button" class="btn btn-primary">
+        <a href="/contact.html" type="button" class="btn btn-primary">
             Get in touch
         </a>
     </p>

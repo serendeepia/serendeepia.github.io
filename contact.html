@@ -3,7 +3,7 @@ layout: mylayout
 title: Contact
 navigation_weight: 10
 ---
-
+<h2>Contact us:</h2>
 
 <p style="text-align: center">
 <span class="icon">
@@ -15,7 +15,33 @@ navigation_weight: 10
     </svg>
 </span>contact@serendeepia.com
 </p>
-<p style="text-align: center">
-    <a href="mailto:contact@serendeepia.com?Subject=Hello%20Serendeepia" class="btn btn-primary"
-       target="_top">Get in touch at <b>contact@serendeepia.com</b></a>
+
+<form action="https://formspree.io/contact@serendeepia.com" method="POST"
+      style="max-width: 600px; margin: 0 auto;">
+    <input type="text" name="_gotcha" style="display:none">
+    <div class="form-group">
+        <input type="text" name="name" id="name" required="required" class="form-control"
+               placeholder="Your name">
+    </div>
+    <div class="form-group">
+        <input type="email" name="_replyto" id="email" required="required" class="form-control"
+               placeholder="Email address">
+    </div>
+    <div class="form-group">
+        <textarea rows="6" name="message" id="message" required="required" class="form-control"
+                  placeholder="How can we help? Tell us about your company and the problem you want to solve. What data do you have? What is your goal? How do you think Artificial Intelligence can help you?"></textarea>
+    </div>
+    <input type="hidden" name="_next" value="message-sent.html">
+    <input type="hidden" name="_subject" value="Re: Serendeepia">
+
+    <div class="form-group">
+        <input type="submit" value="Send" class="btn btn-primary"
+               style="min-width: 100px; margin: 0 auto;">
+    </div>
+</form>
+
+
+<h2>Want to join us?</h2>
+<p>
+    If you like the company, what we do and want to join us or one of the startups we work with, get in touch too. Don't forget to attach or link your CV or projects you have worked before.
 </p>
