@@ -4,18 +4,6 @@ title: Team
 navigation_weight: 2
 ---
 
-<img src="{{ site.url }}/assets/javi.jpg"  style="float: left; margin: 0 24px 0 0px"/>
-
-## Javi
-
-Data scientist (PhD in Machine Learning) with 9+ years of cross-disciplinary experience in the areas of technology, research, teaching and consultancy.
-
-I have broad experience in developing solutions to deal with machine learning problems in diverse technological areas, ranging from the connected car to wearable devices. My work includes collaborations with top tech companies, such as Qualcomm, Google, and Huawei. My research has received several awards and has been published in world class academic venues.
-
-
-<div style="clear:both;"></div>
-
-
 <img src="{{ site.url }}/assets/jorge.jpg"  style="float: right; margin: 0 24px 0 0px"/>
 
 ## Jorge
@@ -24,6 +12,15 @@ I am a remote Machine Learning Researcher/Engineer for different startups of San
 
 My goals in live are being happy, unveil the secrets of the human mind and create Artificial Intelligence thanks to maths.
 
+<div style="clear:both;"></div>
+
+<img src="{{ site.url }}/assets/javi.jpg"  style="float: left; margin: 0 24px 0 0px"/>
+
+## Javi
+
+Data scientist (PhD in Machine Learning) with 9+ years of cross-disciplinary experience in the areas of technology, research, teaching and consultancy.
+
+I have broad experience in developing solutions to deal with machine learning problems in diverse technological areas, ranging from the connected car to wearable devices. My work includes collaborations with top tech companies, such as Qualcomm, Google, and Huawei. My research has received several awards and has been published in world class academic venues.
 
 <div style="clear:both;"></div>
 
