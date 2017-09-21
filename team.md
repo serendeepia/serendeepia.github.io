@@ -4,7 +4,7 @@ title: Team
 navigation_weight: 2
 ---
 
-<img src="{{ site.url }}/assets/jorge.jpg"  style="float: right; margin: 0 24px 0 0px"/>
+<img src="{{ site.url }}/assets/jorge.jpg"  class="member" style="float: right;"/>
 
 ## Jorge
 
@@ -14,7 +14,7 @@ My goals in live are being happy, unveil the secrets of the human mind and creat
 
 <div style="clear:both;"></div>
 
-<img src="{{ site.url }}/assets/javi.jpg"  style="float: left; margin: 0 24px 0 0px"/>
+<img src="{{ site.url }}/assets/javi.jpg"  class="member" style="float: left;"/>
 
 ## Javi
 
@@ -24,7 +24,7 @@ I have broad experience in developing solutions to deal with machine learning pr
 
 <div style="clear:both;"></div>
 
-<img src="{{ site.url }}/assets/raul.jpg"  style="float: right; margin: 0 24px 0 0px"/>
+<img src="{{ site.url }}/assets/raul.jpg" class="member" style="float: right;"/>
 
 ## Raúl
 
