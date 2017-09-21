@@ -39,7 +39,7 @@ Sensors 16 (1), 115
 ## 2015
 
 **Sensor-based Bayesian detection of anomalous living patterns in a home setting**   
-_Francisco  Javier  Ordoñez_, Paula De Toledo, Araceli Sanchis, 
+_Francisco  Javier  Ordoñez_, Paula De Toledo, Araceli Sanchis,   
 Personal and Ubiquitous Computing 19 (2), 259-270
 
 ## 2014
@@ -77,11 +77,11 @@ Jose  Antonio  Iglesias,  _Francisco  Javier  Ordóñez_,  Agapito  Ledezma,  Pa
 May 2012, Proceedings of the  IEEE Conference on Evolving and Adaptive Intelligent Systems, Madrid, Spain
 
 **A Hybrid HMM/ANN Model for Activity Recognition in the Home using Binary Sensors**   
-_Francisco Javier Ordóñez_, Andrés Duque, Paula de Toledo, Araceli Sanchis
+_Francisco Javier Ordóñez_, Andrés Duque, Paula de Toledo, Araceli Sanchis   
 December 2012, 4th International Workshop of Ambient Assisted Living, Vitoria, Spain
 
 **Offline and Online Activity Recognition on Mobile Devices using Accelerometer Data**   
-Andrés Duque, _Francisco Javier Ordóñez_, Paula de Toledo, Araceli Sanchis 
+Andrés Duque, _Francisco Javier Ordóñez_, Paula de Toledo, Araceli Sanchis   
 December 2012, 4th International Workshop of Ambient Assisted Living, Vitoria, Spain
 
 ## 2011
