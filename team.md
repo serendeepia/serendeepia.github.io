@@ -9,9 +9,9 @@ navigation_weight: 2
 
 ## Raúl
 
-I'm a cognitive scientist, with a strong focus on Artificial Intelligence, Psychology and Neuroscience, but also interested in Philosophy of Mind, Linguistics and Anthropology.
+Cognitive scientist, with a strong focus on Artificial Intelligence, Psychology and Neuroscience, but also interested in Philosophy of Mind, Linguistics and Anthropology.
 
-I'm also a computer scientist interested in robotics, big data, data science, analytics, machine learning, deep learning, cognitive computing, and of course machine consciousness.
+Raúl holds a PhD in Artficial Intelligence, BSc in Computer Science, BSc in Psychology and an MBA. He is the author of multiple international papers on Machine Consciousness and Cognitive Robotics and he is a regular collaborator in several AI research and science outreach projects. His main research focus is on the practical application of artificial cognitive systems to the rehabilitation and extension of human mind abilities.
 
 
 <div style="clear:both;"></div>
