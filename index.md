@@ -62,21 +62,21 @@ We integrate the working models into your production pipeline.
 <div class="row"> 
 
 <div class="logo_col center-block"> 
-<img src="assets/logo_tensorflow.svg" alt="tensorflow" class="logo">
+<img src="assets/logo_tensorflow.svg" alt="TensorFlow" class="logo">
     
 TensorFlow is one of the most used libraries used by researchers to create Deep Learning models. It was also designed by Google to be used for running models in production: <a href="https://cloud.google.com/products/machine-learning/">Cloud Machine Learning</a>, an <a href="https://aws.amazon.com/">AWS</a> instance using <a href="https://www.tensorflow.org/serving/">TensorFlow Serving</a> or to your Android/iOs mobile app.
 
 </div> 
 
 <div class="logo_col center-block"> 
-<img src="assets/logo_spark.svg" alt="cloud" class="logo">
+<img src="assets/logo_spark.svg" alt="Spark" class="logo">
     
 Apache Spark is a fast and general engine for big data processing and it is one of the tools we use. We have experience with big data in small and big corporations. We can provide you the best infrastructure for your present and future needs in a scalable way.
 
 </div> 
 
 <div class="logo_col center-block"> 
-<img src="assets/logo_github.svg" alt="cloud" class="logo">
+<img src="assets/logo_github.svg" alt="GitHub" class="logo">
     
 GitHub has become the standard version control repository for the code. We use common tools of fast paced startups and we follow agile methodologies in our projects. We can integrate seamless in your workflow.
     
