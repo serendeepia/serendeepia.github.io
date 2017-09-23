@@ -48,7 +48,7 @@ a:hover, a:focus {
 }
 
 div.wrapper {
-    max-width: 900px;
+    max-width: 860px;
     margin: auto;
 }
 
@@ -607,7 +607,6 @@ fieldset[disabled] .btn-primary.focus {
     background-color: #f8f8f8;
 }
 
-
 .form-control {
     display: block;
     width: 100%;
@@ -626,42 +625,52 @@ fieldset[disabled] .btn-primary.focus {
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
+
 .form-control:focus {
     border-color: #5945a6;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(89,69,166, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(89,69,166, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(89, 69, 166, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(89, 69, 166, 0.6);
 }
+
 .form-control::-moz-placeholder {
     color: #999999;
     opacity: 1;
 }
+
 .form-control:-ms-input-placeholder {
     color: #999999;
 }
+
 .form-control::-webkit-input-placeholder {
     color: #999999;
 }
+
 .form-control::-ms-expand {
     border: 0;
     background-color: transparent;
 }
+
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
     background-color: #eeeeee;
     opacity: 1;
 }
+
 .form-control[disabled],
 fieldset[disabled] .form-control {
     cursor: not-allowed;
 }
+
 textarea.form-control {
     height: auto;
 }
+
 input[type="search"] {
     -webkit-appearance: none;
 }
+
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     input[type="date"].form-control,
     input[type="time"].form-control,
@@ -669,6 +678,7 @@ input[type="search"] {
     input[type="month"].form-control {
         line-height: 36px;
     }
+
     input[type="date"].input-sm,
     input[type="time"].input-sm,
     input[type="datetime-local"].input-sm,
@@ -679,6 +689,7 @@ input[type="search"] {
     .input-group-sm input[type="month"] {
         line-height: 33px;
     }
+
     input[type="date"].input-lg,
     input[type="time"].input-lg,
     input[type="datetime-local"].input-lg,
@@ -690,9 +701,11 @@ input[type="search"] {
         line-height: 49px;
     }
 }
+
 .form-group {
     margin-bottom: 15px;
 }
+
 .radio,
 .checkbox {
     position: relative;
@@ -700,6 +713,7 @@ input[type="search"] {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .radio label,
 .checkbox label {
     min-height: 22px;
@@ -708,6 +722,7 @@ input[type="search"] {
     font-weight: normal;
     cursor: pointer;
 }
+
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -716,10 +731,12 @@ input[type="search"] {
     margin-left: -20px;
     margin-top: 4px \9;
 }
+
 .radio + .radio,
 .checkbox + .checkbox {
     margin-top: -5px;
 }
+
 .radio-inline,
 .checkbox-inline {
     position: relative;
@@ -730,11 +747,13 @@ input[type="search"] {
     font-weight: normal;
     cursor: pointer;
 }
+
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
     margin-top: 0;
     margin-left: 10px;
 }
+
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"].disabled,
@@ -743,29 +762,34 @@ fieldset[disabled] input[type="radio"],
 fieldset[disabled] input[type="checkbox"] {
     cursor: not-allowed;
 }
+
 .radio-inline.disabled,
 .checkbox-inline.disabled,
 fieldset[disabled] .radio-inline,
 fieldset[disabled] .checkbox-inline {
     cursor: not-allowed;
 }
+
 .radio.disabled label,
 .checkbox.disabled label,
 fieldset[disabled] .radio label,
 fieldset[disabled] .checkbox label {
     cursor: not-allowed;
 }
+
 .form-control-static {
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 0;
     min-height: 38px;
 }
+
 .form-control-static.input-lg,
 .form-control-static.input-sm {
     padding-left: 0;
     padding-right: 0;
 }
+
 .input-sm {
     height: 33px;
     padding: 5px 10px;
@@ -773,14 +797,17 @@ fieldset[disabled] .checkbox label {
     line-height: 1.5;
     border-radius: 3px;
 }
+
 select.input-sm {
     height: 33px;
     line-height: 33px;
 }
+
 textarea.input-sm,
 select[multiple].input-sm {
     height: auto;
 }
+
 .form-group-sm .form-control {
     height: 33px;
     padding: 5px 10px;
@@ -788,14 +815,17 @@ select[multiple].input-sm {
     line-height: 1.5;
     border-radius: 3px;
 }
+
 .form-group-sm select.form-control {
     height: 33px;
     line-height: 33px;
 }
+
 .form-group-sm textarea.form-control,
 .form-group-sm select[multiple].form-control {
     height: auto;
 }
+
 .form-group-sm .form-control-static {
     height: 33px;
     min-height: 36px;
@@ -803,6 +833,7 @@ select[multiple].input-sm {
     font-size: 14px;
     line-height: 1.5;
 }
+
 .input-lg {
     height: 49px;
     padding: 10px 16px;
@@ -810,14 +841,17 @@ select[multiple].input-sm {
     line-height: 1.3333333;
     border-radius: 6px;
 }
+
 select.input-lg {
     height: 49px;
     line-height: 49px;
 }
+
 textarea.input-lg,
 select[multiple].input-lg {
     height: auto;
 }
+
 .form-group-lg .form-control {
     height: 49px;
     padding: 10px 16px;
@@ -825,14 +859,17 @@ select[multiple].input-lg {
     line-height: 1.3333333;
     border-radius: 6px;
 }
+
 .form-group-lg select.form-control {
     height: 49px;
     line-height: 49px;
 }
+
 .form-group-lg textarea.form-control,
 .form-group-lg select[multiple].form-control {
     height: auto;
 }
+
 .form-group-lg .form-control-static {
     height: 49px;
     min-height: 42px;
@@ -840,12 +877,15 @@ select[multiple].input-lg {
     font-size: 20px;
     line-height: 1.3333333;
 }
+
 .has-feedback {
     position: relative;
 }
+
 .has-feedback .form-control {
     padding-right: 45px;
 }
+
 .form-control-feedback {
     position: absolute;
     top: 0;
@@ -858,6 +898,7 @@ select[multiple].input-lg {
     text-align: center;
     pointer-events: none;
 }
+
 .input-lg + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
@@ -865,6 +906,7 @@ select[multiple].input-lg {
     height: 49px;
     line-height: 49px;
 }
+
 .input-sm + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
@@ -872,6 +914,7 @@ select[multiple].input-lg {
     height: 33px;
     line-height: 33px;
 }
+
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -884,24 +927,29 @@ select[multiple].input-lg {
 .has-success.checkbox-inline label {
     color: #3c763d;
 }
+
 .has-success .form-control {
     border-color: #3c763d;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
 .has-success .form-control:focus {
     border-color: #2b542c;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
 }
+
 .has-success .input-group-addon {
     color: #3c763d;
     border-color: #3c763d;
     background-color: #dff0d8;
 }
+
 .has-success .form-control-feedback {
     color: #3c763d;
 }
+
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -914,24 +962,29 @@ select[multiple].input-lg {
 .has-warning.checkbox-inline label {
     color: #8a6d3b;
 }
+
 .has-warning .form-control {
     border-color: #8a6d3b;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
 .has-warning .form-control:focus {
     border-color: #66512c;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
 }
+
 .has-warning .input-group-addon {
     color: #8a6d3b;
     border-color: #8a6d3b;
     background-color: #fcf8e3;
 }
+
 .has-warning .form-control-feedback {
     color: #8a6d3b;
 }
+
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -944,66 +997,81 @@ select[multiple].input-lg {
 .has-error.checkbox-inline label {
     color: #a94442;
 }
+
 .has-error .form-control {
     border-color: #a94442;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
 .has-error .form-control:focus {
     border-color: #843534;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
+
 .has-error .input-group-addon {
     color: #a94442;
     border-color: #a94442;
     background-color: #f2dede;
 }
+
 .has-error .form-control-feedback {
     color: #a94442;
 }
+
 .has-feedback label ~ .form-control-feedback {
     top: 27px;
 }
+
 .has-feedback label.sr-only ~ .form-control-feedback {
     top: 0;
 }
+
 .help-block {
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
     color: #737373;
 }
+
 @media (min-width: 768px) {
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
         vertical-align: middle;
     }
+
     .form-inline .form-control {
         display: inline-block;
         width: auto;
         vertical-align: middle;
     }
+
     .form-inline .form-control-static {
         display: inline-block;
     }
+
     .form-inline .input-group {
         display: inline-table;
         vertical-align: middle;
     }
+
     .form-inline .input-group .input-group-addon,
     .form-inline .input-group .input-group-btn,
     .form-inline .input-group .form-control {
         width: auto;
     }
+
     .form-inline .input-group > .form-control {
         width: 100%;
     }
+
     .form-inline .control-label {
         margin-bottom: 0;
         vertical-align: middle;
     }
+
     .form-inline .radio,
     .form-inline .checkbox {
         display: inline-block;
@@ -1011,19 +1079,23 @@ select[multiple].input-lg {
         margin-bottom: 0;
         vertical-align: middle;
     }
+
     .form-inline .radio label,
     .form-inline .checkbox label {
         padding-left: 0;
     }
+
     .form-inline .radio input[type="radio"],
     .form-inline .checkbox input[type="checkbox"] {
         position: relative;
         margin-left: 0;
     }
+
     .form-inline .has-feedback .form-control-feedback {
         top: 0;
     }
 }
+
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -1032,14 +1104,17 @@ select[multiple].input-lg {
     margin-bottom: 0;
     padding-top: 7px;
 }
+
 .form-horizontal .radio,
 .form-horizontal .checkbox {
     min-height: 29px;
 }
+
 .form-horizontal .form-group {
     margin-left: -15px;
     margin-right: -15px;
 }
+
 @media (min-width: 768px) {
     .form-horizontal .control-label {
         text-align: right;
@@ -1047,15 +1122,18 @@ select[multiple].input-lg {
         padding-top: 7px;
     }
 }
+
 .form-horizontal .has-feedback .form-control-feedback {
     right: 15px;
 }
+
 @media (min-width: 768px) {
     .form-horizontal .form-group-lg .control-label {
         padding-top: 11px;
         font-size: 20px;
     }
 }
+
 @media (min-width: 768px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px;
@@ -1063,9 +1141,24 @@ select[multiple].input-lg {
     }
 }
 
-
 h1, h2, h3, h4, h5, h6 {
     color: #222;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    font-size: 80%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p, ul, ol, table, pre, dl {
@@ -1192,15 +1285,19 @@ header, section, footer {
     width: auto;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 720px) {
     header nav.main-nav {
         float: left;
-        margin-top: 16px;
+        margin-top: 12px;
     }
 
     nav.main-nav ul li.right,
     nav.main-nav ul li {
         float: none;
+    }
+
+    header nav.main-nav ul li a {
+        padding: 4px 8px 4px 8px;
     }
 
     div.slogan p cite {
@@ -1228,11 +1325,26 @@ header, section, footer {
     body {
         margin: 0;
     }
+
+    header nav.main-nav {
+        float: left;
+        margin-top: 8px;
+    }
+
+    nav.main-nav ul li.right,
+    nav.main-nav ul li {
+        float: none;
+        width: auto;
+    }
+
+    header nav.main-nav ul li a {
+        padding: 2px 4px 2px 4px;
+    }
 }
 
 @media screen and (max-width: 400px) {
     header h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     header h1 a span {
@@ -1259,20 +1371,15 @@ header, section, footer {
     margin-right: auto;
 }
 
-.container-fluid {
+div.container-fluid {
+    max-width: 730px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.row {
-    margin-left: -20px;
-    margin-right: -20px;
 }
 
-img.logo{
+img.logo {
     display: block;
-    width: 80px;
+    height: 80px;
     margin-bottom: 12px;
     max-height: 100%;
     max-width: 100%;
@@ -1280,9 +1387,83 @@ img.logo{
     margin-right: auto;
 }
 
-div.logo_col{
-    width: 250px;
+div.logo_col {
+    width: auto;
+    max-width: 330px;
+    height: 220px;
     float: left;
     position: relative;
-    padding: 20px 20px;
+    padding: 15px 15px;
+    font-size: 90%;
+}
+
+div.container-fluid-how {
+    max-width: 736px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.how_col {
+    width: auto;
+    max-width: 208px;
+    float: left;
+    position: relative;
+    padding: 2px 10px 12px 10px;
+    margin: 8px 8px;
+    font-size: 90%;
+    background: #f7f7f7;
+    border-radius: 6px;
+}
+
+div.how_col h3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+    div.container-fluid {
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    img.logo {
+        display: block;
+        float: left;
+        width: 100px;
+        margin-right: 16px;
+    }
+
+    div.logo_col {
+        width: 100%;
+        font-size: 90%;
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    div.container-fluid-how {
+        max-width: 756px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    div.how_col {
+        width: 100%;
+        max-width: 100%;
+        margin: 8px auto;
+        padding: 2px 0px 12px 0px;
+    }
+
+    div.how_col h3 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    div.how_col {
+        padding: 2px 10px 12px 10px;
+    }
 }
