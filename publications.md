@@ -50,7 +50,15 @@ IEEE Pervasive Computing 13 (3), 67-75
 
 **Agent-Based Framework for Advanced Driver Assistance Systems in Urban Environments**   
 German  Gutierrez,  Jose  Antonio  Iglesias,  _Francisco  Javier  Ordoñez_,  Agapito  Ledezma,  Araceli Sanchis    
-July 2014, Proceedings of the 17th International Conference on Information Fusion, Salamanca, Spain 
+July 2014, Proceedings of the 17th International Conference on Information Fusion, Salamanca, Spain
+
+**Artificial Intelligence Approaches for the Generation and Assessment of Believable Human-Like Behaviour in Virtual Characters**
+Llargues Asensio, J.M.; Peralta, J.; _Arrabales, R._; Gonzalez Bedia, M.; Cortez, P.; Lopez Peña, A. 
+Expert Systems with Applications. Vol. 41. No. 16. Nov. 2014. pp. 7281-7290.
+
+**Haikonen’s View on Machine Consciousness: Back to the Engineering Stance**
+Arrabales, R. 
+International Journal of Machine Consciousness. Vol. 6. No. 1. June 2014. pp. 1-4(4)
 
 ## 2013
 
@@ -84,11 +92,31 @@ December 2012, 4th International Workshop of Ambient Assisted Living, Vitoria, S
 Andrés Duque, _Francisco Javier Ordóñez_, Paula de Toledo, Araceli Sanchis   
 December 2012, 4th International Workshop of Ambient Assisted Living, Vitoria, Spain
 
+**Inner Speech Generation in a Video Game Non-Player Character: From Explanation to Self?**
+_Arrabales, R._
+International Journal of Machine Consciousness. Vol. 4. No. 2. pp. 367-381. December 2012.
+
+**CC-Bot: A Believable Video Game Bot based on Machine Consciousness**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+5th International Conference on Cognitive Systems (CogSys 2012). Vienna. Austria. February 2012.
+
+**ConsScale FPS: Cognitive Integration for Improved Believability in Computer Game Bots**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+In Believable Bots. Hingston. P. (ed). Springer, 2012. pp. 193-214. ISBN 978-3-642-32322-5
+
 ## 2011
 
 **¿Máquina o humano?**  
 _Raúl Arrabales Moreno_, _Jorge Muñoz Fuentes_  
 May 2011, Investigación y Ciencia: Edición Española de Scientific American
+
+**Exploring Possible Mechanisms for Inner Speech Generation in the CERA-CRANIUM Cognitive Architecture**
+_Arrabales, R._
+Retecog 2011 – The Architectures of Mind. Madrid. July 2011.
+
+**Evaluation and Development of Consciousness in Artificial Cognitive Systems**
+_Arrabales, R._
+PhD Thesis. Carlos III University of Madrid. February, 2011.
 
 ## 2010
 
@@ -99,6 +127,30 @@ September 2010, Proceedings of the 10th Annual Workshop on Computational Intelli
 **A human-like TORCS controller for the Simulated Car Racing Championship** [**[PDF](https://www.researchgate.net/profile/Araceli_Sanchis_de_Miguel/publication/224180055_A_human-like_TORCS_controller_for_the_Simulated_Car_Racing_Championship/links/00b49517e8be6dfb2d000000.pdf)**]  
 _Jorge Muñoz_, German Gutierrez, Araceli Sanchis  
 August 2010, Proceedings 2010 IEEE Conference on Computational Intelligence and Games, Copenhagen, Denmark
+
+**ConsScale: A Pragmatic Scale for Measuring the Level of Consciousness in Artificial Agents**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+Journal of Consciousness Studies. Vol. 17. No. 3-4. March-April 2010. pp. 131-164(34)
+
+**The Cognitive Development of Machine Consciousness Implementations**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+International Journal of Machine Consciousness. Vol 2. No. 2. Alexei V. Samsonovich (Eds), pp. 213-225. December 2010.
+
+**Towards the Generation of Visual Qualia in Artificial Cognitive Architectures**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+BICS 2010 (Brain Inspired Cognitive Systems). Conference Preprints ISBN 978-84-614-1870-1.
+
+**On the Practical Nature of Artificial Qualia**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+Symposium on AI-Inspired Biology. The 2010 Annual Convention of the Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB2010). Leicester, UK. March 2010.
+
+**ConsScale: A Cognitive Scale Inspired on Consciousness**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+4th International Conference on Cognitive Systems (CogSys 2010). Zürich. Switzerland. January 2010.
+
+**Simulating Visual Qualia in the CERA-CRANIUM Cognitive Architecture**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+From Brains to Systems: Brain-Inspired Cognitive Systems 2010. In Series: Advances in Experimental Medicine and Biology, vol. 718, Hernández, C.; Sanz, R.; Gomez, J.; Smith, L.S.; Hussain, A.; Chella, A.; Aleksander, I. (Eds.). Springer New York. ISBN: 978-1-4614-0163-6.
 
 ## 2009
 
@@ -114,9 +166,74 @@ June 2009, Proceedings 10th International Work-Conference on Artificial Neural N
 _Jorge Muñoz_, German Gutierrez, Araceli Sanchis  
 May 2009, Proceedings 2009 IEEE Congress on Evolutionary Computation, Trondheim, Norway
 
+**Strategies for Measuring Machine Consciousness**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+International Journal of Machine Consciousness. Vol 1. Issue 2. December 2009. pp. 193-201.
+
+**A Cognitive Approach to Multimodal Attention**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+Journal of Physical Agents. Volume 3. Issue 1. Pages 53-64. January 2009.
+
+**Assessing and Characterizing the Cognitive Power of Machine Consciousness Implementations**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+AAAI 2009 Fall Symposium on Biologically Inspired Cognitive Architectures (BICA-2009). Technical Report FS-09-01. pp. 16-21. AAAI Press. ISBN 978-1-57735-435-2.
+
+**Towards Conscious-like Behavior in Computer Game Characters**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+In Proceedings of the IEEE Symposium on Computational Intelligence and Games 2009 (CIG-2009) pp. 217-224. ISBN 978-1-4244-4815-9.
+
+**Establishing a Roadmap and Metrics for Conscious Machines Development**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+In Proceedings of the 8th IEEE International Conference on Cognitive Informatics. G. Baciu, Y. Wang, Y.Y. Yao, W. Kinsner, K. Chan & L.A. Zadeh (Eds.). Hong Kong. June 2009. Pages 94-101. ISBN 978-1-4244-4642-1.
+
+**Designing Human-like Video Game Synthetic Characters through Machine Consciousness**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+Towards a Science of Consciousness 2009. Hong Kong. June 2009. Pages 74.
+
+**CERA-CRANIUM: A Test Bed for Machine Consciousness Research**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+International Workshop on Machine Consciousness 2009. Hong Kong. June 2009. Pages 105.
+
 ## 2008
 
 **Genetic Approach for Optimizing Ensembles of Classifiers** [**[PDF](http://www.aaai.org/Papers/FLAIRS/2008/FLAIRS08-026.pdf)**]  
 _Francisco Javier Ordóñez_, Agapito Ledezma, Araceli Sanchis  
 May 2008, Proceedings of the Twenty-First International Florida Artificial Intelligence Research Society Conference, Florida, USA 
 
+**Applying Machine Consciousness Models in Autonomous Situated Agents**
+_Arrabales, R._ and Sanchis de Miguel, A. 
+Pattern Recognition Letters. Special Issue on Pattern Recognition in Multidisciplinary Perception and Intelligence. Volume 29. Issue 8. Pages 1033-1038. June 2008.
+
+**Integrated Attention for Cognitive Robotics**
+_Arrabales, R._ Ledezma, A. and Sanchis, A. 
+Communications of the Systemics and Informatics World Network (SIWN). Volume 5. August 2008. Pages 1-5.
+
+**ConsScale: A Plausible Test for Machine Consciouness?**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+Proceedings of the Nokia Workshop on Machine Consciousness – 13th Finnish Artificial Intelligence Conference (STeP 2008). Helsinki. Finland. Pages 49-57.
+
+**A Multimodal Attention Mechanism for Autonomous Mobile Robotics**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+IX Workshop on Physical Agents 2008. Joaquín Lopez and Matías García (Eds.) Vigo. Spain. September 2008. Pages 121-128.
+
+**Criteria for Consciousness in Artificial Intelligent Agents**
+_Arrabales, R._ Ledezma, A. and Sanchis, A.
+ALAMAS+ALAg 2008 – Adaptive Learning Agents and Multi-Agent Systems – Proceedings of the ALAMAS+ALAg Workshop at AAMAS 2008. Estoril. Portugal. Pages 57-64. 2008. “Criteria for Consciousness in Artificial Intelligent Agents“. ALAMAS+ALAg 2008 – Adaptive Learning Agents and Multi-Agent Systems – Proceedings of the ALAMAS+ALAg Workshop at AAMAS 2008. Estoril. Portugal. Pages 57-64. 2008.
+
+## 2007
+
+**Modelling Consciousness for Autonomous Robot Exploration**
+_Arrabales, R._ Ledezma Espino, A. and Sanchis de Miguel, A.
+In 2nd International Work-Conference on the Interplay between Natural and Artificial Computation, IWINAC 2007. Lecture Notes in Computer Science Series, Vol. 4527. pp. 51-60.
+
+## 2006
+
+**A Machine Consciousness Approach to Autonomous Mobile Robotics**
+_Arrabales, R._ and Sanchis de Miguel, A. 
+In the 5th International Cognitive Robotics Workshop. AAAI-06. Boston, MA. July 2006.
+
+## 2002
+
+**An adaptive video event mining system for an autonomous underwater vehicle**
+_Arrabales R._, Flanagan C., Toal D.
+In: Intelligent Engineering Systems through Artificial Neural Networks, 2002, Vol 12, pp 585-591, ASME Press, Proc. ANNIE 2002, St Louis. ISBN 0-7918-0191-8.
