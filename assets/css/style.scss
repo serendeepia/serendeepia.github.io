@@ -7,6 +7,7 @@ body {
     font: 16px/1.6 "Open+Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #fff;
     padding: 50px 0px 40px 0px;
+    margin: 0;
     color: #727272;
     font-weight: 400;
 }
@@ -1374,7 +1375,6 @@ div.how_col h3 {
     }
 
     div.logo_col {
-        width: 100%;
         font-size: 100%;
         max-width: 100%;
         height: auto;
@@ -1402,7 +1402,6 @@ div.how_col h3 {
     body {
         word-wrap: break-word;
         padding: 15px 0;
-        margin: 0px;
     }
 
     section, footer {
