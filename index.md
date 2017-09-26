@@ -17,9 +17,9 @@ title: Home
 
 ## Who
 
-Serendeepia is a group of experts in Artificial Intelligence and Deep Learning with passion for startups. We build custom solutions for startups with state of the art research and help them to develop their own capability to use Artificial Intelligence.
+Serendeepia is a group of experts in Artificial Intelligence and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.
 
-We are a very multidisciplinar team. We all have been doing research in Artificial Intelligence for more than 5 years in the academia. We went beyond the PhD and we also hold MBAs and degrees in Psychology. We have been leading Machine Learning projects in big consultancy companies and also worked for startups around the world (London, San Francisco and Madrid among others).
+We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research. Our expertise come from both academia and industry, after completing our PhD and MBA programs back in 2011 we have been leading Machine Learning projects in large consultancy companies and startups around the world (London, San Francisco, Madrid).
 
 
 <p style="text-align: center">
@@ -30,7 +30,7 @@ We are a very multidisciplinar team. We all have been doing research in Artifici
 
 ## What
 
-Serendeepia helps startups that want to apply Artificial Intelligence and Deep Learning models to their products. We build custom solutions with state of the art research and help startups to develop their own capability to use Artificial Intelligence.
+We help startups that want to apply Artificial Intelligence and Deep Learning models to their products. We build custom solutions with state of the art technology, enabling our customers and partners to use Artificial Intelligence effectively. 
 
 ## How
 
