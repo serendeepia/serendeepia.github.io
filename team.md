@@ -10,7 +10,7 @@ navigation_weight: 2
 
 Jorge Muñoz is a Machine Learning Researcher/Engineer with an MBA and he has pursued a PhD in Artificial Intelligence before. 
 
-He has worked for different startups of San Francisco and London applying latest deep learning research to big data products. He has also run his own entrepreneurship projects in Artificial Intelligence and mobile apps. He was graduate with first class honors and he has been awarded several by the research and work done, both locally and internationally. He loves maths since very young age and he has been finalist in a couple international math contest.
+He has worked for different startups of San Francisco and London applying latest deep learning research to big data products. He has also run his own entrepreneurship projects in Artificial Intelligence and mobile apps. He was graduate with first class honors and he has been awarded several by the research and work done, both locally and internationally. He loves maths since very young age and he has been finalist in a couple international math contest. Visit <a href="https://jorgemf.github.io/cv.html" target="_blank">Jorge's personal page</a> for more details about him. 
 
 <div style="clear:both;"></div>
 
