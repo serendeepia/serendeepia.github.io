@@ -22,3 +22,10 @@ Classification, translation, summarization, text generation, text mining, semant
 
 Recommendation engines, log analysis, click/sales prediction, segmentation.
 
+
+<p style="text-align: center">
+    <br>
+    <a href="/contact.html" type="button" class="btn btn-primary">
+        Other projects in mind, contact us anyway.
+    </a>
+</p>
