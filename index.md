@@ -5,7 +5,7 @@ title: Home
 
 <div class="slogan">
     <p>
-        <cite>We help startups to create their first machine learning product with state of the art research.</cite>
+        <cite>We apply state of the art research to create Artificial Intelligence products for startups.</cite>
     </p>
     <p style="text-align: center">
         <br>
@@ -17,9 +17,9 @@ title: Home
 
 ## Who
 
-Serendeepia is a group of experts in Artificial Intelligence and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.
+Serendeepia is a group of experts in Machine Learning and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.
 
-We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research. Our expertise come from both academia and industry, after completing our PhD and MBA programs back in 2011 we have been leading Machine Learning projects in large consultancy companies and startups around the world (London, San Francisco, Madrid).
+We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research. We have PhD and MBA and we have been leading Machine Learning projects in large consultancy companies and startups around the world (London, San Francisco, Madrid).
 
 
 <p style="text-align: center">
@@ -30,7 +30,7 @@ We are a multidisciplinar and experienced team with a strong background in Artif
 
 ## What
 
-We help startups that want to apply Artificial Intelligence and Deep Learning models to their products. We build custom solutions with state of the art technology, enabling our customers and partners to use Artificial Intelligence effectively. 
+We help startups that want to apply Depp Learning and Machine Learning models to their products. We build custom solutions with state of the art technology, enabling our customers and partners to use Artificial Intelligence effectively. 
 
 ## How
 
@@ -85,7 +85,7 @@ GitHub has become the standard version control repository for the code. We use c
 <div class="logo_col"> 
 <img alt="python" src="assets/logo_python.svg" class="logo"> 
 
-Python is the standard language for Deep Learning research and we use it extensively in our projects. We apply high standards to our code and experimentation with extensive documentation and unit testing.
+Python is the standard language for Machine Learning research and we use it extensively in our projects. We apply high standards to our code and experimentation with extensive documentation and unit testing.
 
 </div>
 

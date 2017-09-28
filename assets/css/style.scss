@@ -81,6 +81,7 @@ header h1 a:hover, header h1 a:focus {
 
 header a small {
     display: inline;
+
 }
 
 header nav.main-nav {
@@ -1436,7 +1437,7 @@ div.how_col h3 {
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 760px) {
     header nav.main-nav {
         float: left;
         margin: 12px 0 -1px 0;
@@ -1485,6 +1486,33 @@ div.how_col h3 {
 
     div.logo_col{
         padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    header nav.main-nav ul li {
+        margin: 0 0;
+        float: left;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    header nav.main-nav ul li:not(.active) a:hover {
+        background: #f7f7f7;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    header nav.main-nav ul .active {
+        color: #4a3a8b;
+        z-index: 2;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border: none;
+        background: #f7f7f7;
+        border-bottom: 1px solid #e5e5e5;
     }
 }
 
