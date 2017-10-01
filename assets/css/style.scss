@@ -34,6 +34,10 @@ div.slogan {
     margin-bottom: 20px;
 }
 
+div.slogan p {
+    text-align: center;
+}
+
 div.slogan p cite {
     font-size: 2em;
 }
@@ -1213,6 +1217,9 @@ pre {
 }
 
 table {
+    max-width: 724px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     border-collapse: collapse;
 }
@@ -1434,6 +1441,13 @@ div.how_col h3 {
         padding: 6px 6px;
         margin-left: -6px;
         margin-right: -6px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    div.slogan p {
+        text-align: left;
     }
 }
 
