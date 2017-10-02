@@ -19,7 +19,7 @@ title: Home
 
 Serendeepia is a group of experts in Machine Learning and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.
 
-We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Businesss. Over the last years We have been leading Machine Learning projects in large consultancy firms and startups around the world (London, San Francisco, Madrid).
+We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Businesss. Over the last years we have been leading Machine Learning projects in large consultancy firms and startups around the world (London, San Francisco, Madrid).
 
 
 <p style="text-align: center">
