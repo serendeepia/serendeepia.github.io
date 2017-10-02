@@ -5,7 +5,7 @@ title: Home
 
 <div class="slogan">
     <p>
-        <cite>We apply state of the art research to create Artificial Intelligence products for startups.</cite>
+        <cite>We create Artificial Intelligence products for startups based on state of the art research</cite>
     </p>
     <p style="text-align: center">
         <br>
@@ -19,7 +19,7 @@ title: Home
 
 Serendeepia is a group of experts in Machine Learning and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.
 
-We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research. We have PhD and MBA and we have been leading Machine Learning projects in large consultancy companies and startups around the world (London, San Francisco, Madrid).
+We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Businesss. Over the last years We have been leading Machine Learning projects in large consultancy firms and startups around the world (London, San Francisco, Madrid).
 
 
 <p style="text-align: center">
@@ -30,7 +30,7 @@ We are a multidisciplinar and experienced team with a strong background in Artif
 
 ## What
 
-We help startups that want to apply Depp Learning and Machine Learning models to their products. We build custom solutions with state of the art technology, enabling our customers and partners to use Artificial Intelligence effectively. 
+We help companies to enhance their offering by including Deep Learning and Machine Learning models in their products. We build custom solutions with state of the art technology, enabling our customers and partners to use Artificial Intelligence effectively. 
 
 ## How
 
@@ -39,17 +39,17 @@ We help startups that want to apply Depp Learning and Machine Learning models to
 
 <div class="how_col center-block"> 
 <h3>Research</h3><p>
-We analyze your problem and research about posible solutions. Our solutions are based on state of the art research.
+We analyze your problem and design effective AI solutions based on state of the art technology and tools.
 </p></div>
 
 <div class="how_col center-block"> 
 <h3>MVP</h3><p>
-We train and test deep learning models until they solve your problem. We create a minimum viable product.
+We design, develop, train and test deep learning models building AI minimum viable products.
 </p></div>
 
 <div class="how_col center-block"> 
 <h3>Deploy</h3><p>
-We integrate the working models into your production pipeline.
+We provide a ready-to-use and scalable solution deployment based on micro-services.
 </p></div>
 
 <div style="clear: both;"></div>
@@ -64,21 +64,21 @@ We integrate the working models into your production pipeline.
 <div class="logo_col center-block"> 
 <img src="assets/logo_tensorflow.svg" alt="TensorFlow" class="logo">
     
-TensorFlow is one of the most used libraries used by researchers to create Deep Learning models. It was also designed by Google to be used for running models in production: <a href="https://cloud.google.com/products/machine-learning/">Cloud Machine Learning</a>, an <a href="https://aws.amazon.com/">AWS</a> instance using <a href="https://www.tensorflow.org/serving/">TensorFlow Serving</a> or to your Android/iOs mobile app.
+TensorFlow is one of the most used libraries used by researchers to create Deep Learning models. It was also designed by Google to be used for running models in production: <a href="https://cloud.google.com/products/machine-learning/">Cloud Machine Learning</a>, <a href="https://aws.amazon.com/">AWS</a> instances using <a href="https://www.tensorflow.org/serving/">TensorFlow Serving</a> or Android/iOs mobile apps.
 
 </div> 
 
 <div class="logo_col center-block"> 
 <img src="assets/logo_spark.svg" alt="Spark" class="logo">
     
-Apache Spark is a fast and general engine for big data processing and it is one of the tools we use. We have experience with big data in small and big corporations. We can provide you the best infrastructure for your present and future needs in a scalable way.
+Apache Spark is a fast in-memory engine for big data processing and one of the platforms we use. We have experience with big data architectures in both small and large deployments. We provide you with scalable infrastructure design for your present and future needs.
 
 </div> 
 
 <div class="logo_col center-block"> 
 <img src="assets/logo_github.svg" alt="GitHub" class="logo">
     
-GitHub has become the standard version control repository for the code. We use common tools of fast paced startups and we follow agile methodologies in our projects. We can integrate seamless in your workflow.
+GitHub has become the standard version control repository for professional and open source coding. We use the standard tools of fast paced startups and we follow agile methodologies in our projects, providing a seamless integration into your existing workflows.
     
 </div> 
 
@@ -95,5 +95,5 @@ Python is the standard language for Machine Learning research and we use it exte
 
 ## Life after us
 
-Serendeepia is committed to their projects beyond the deployment to production. We would continue helping your startup beyond the product. We can prepare of ad-hoc courses for your company in order to train your team to keep developing the product or help you to to hire the best professionals in Machine Learning.
+Serendeepia is committed to their projects beyond the deployment to production. We would continue helping your startup beyond the product proof of concept. We design ad-hoc training courses for your team and/or help you to to hire the best data science and AI professionals.
 
