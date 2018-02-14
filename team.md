@@ -14,16 +14,14 @@ He has worked for different startups of San Francisco and London applying latest
 
 <div style="clear:both;"></div>
 
-{% comment %}
 <img src="{{ site.url }}/assets/javi.jpg"  class="member" style="float: left;"/>
-## Javi
+## Javier
 
 Javier Ordoñez is a Data Scientist (PhD in Machine Learning) with 9+ years of cross-disciplinary experience in the areas of technology, research, teaching and consultancy.
 
 He has broad experience in developing solutions to deal with machine learning problems in diverse technological areas, ranging from the connected car to wearable devices. His work includes collaborations with top tech companies, such as Qualcomm, Google, and Huawei. His research has received several awards and has been published in world class academic venues.
 
 <div style="clear:both;"></div>
-{% endcomment %}
 
 <img src="{{ site.url }}/assets/raul.jpg" class="member" style="float: left;"/>
 
