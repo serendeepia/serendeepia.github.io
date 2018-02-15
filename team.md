@@ -15,6 +15,7 @@ He has worked for different startups of San Francisco and London applying latest
 <div style="clear:both;"></div>
 
 <img src="{{ site.url }}/assets/javi.jpg"  class="member" style="float: left;"/>
+
 ## Javier
 
 Javier Ordoñez is a Data Scientist (PhD in Machine Learning) with 9+ years of cross-disciplinary experience in the areas of technology, research, teaching and consultancy.
@@ -23,7 +24,7 @@ He has broad experience in developing solutions to deal with machine learning pr
 
 <div style="clear:both;"></div>
 
-<img src="{{ site.url }}/assets/raul.jpg" class="member" style="float: left;"/>
+<img src="{{ site.url }}/assets/raul.jpg" class="member" style="float: right;"/>
 
 ## Raúl
 
