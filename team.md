@@ -16,7 +16,7 @@ He has worked for different startups of San Francisco and London applying latest
 
 <img src="{{ site.url }}/assets/javi.jpg"  class="member" style="float: left;"/>
 
-## Javi
+## Javier
 
 Javier Ordoñez is a Data Scientist (PhD in Machine Learning) with 9+ years of cross-disciplinary experience in the areas of technology, research, teaching and consultancy.
 
