@@ -5,7 +5,7 @@ title: Home
 
 <div class="slogan">
     <p>
-        <cite>We create Artificial Intelligence products for startups based on state of the art research</cite>
+        <cite>Artificial Intelligence solutions for your business based on state of the art research</cite>
     </p>
     <p style="text-align: center">
         <br>
@@ -21,8 +21,8 @@ Serendeepia is a group of experts in Machine Learning and Deep Learning with a p
 
 We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Businesss. Over the last years we have been leading Machine Learning projects in large consultancy firms and startups around the world (London, San Francisco, Madrid).
 
-
 <p style="text-align: center">
+    <br>
     <a href="/team.html" type="button" class="btn btn-primary">
         Meet the team
     </a>
@@ -30,11 +30,24 @@ We are a multidisciplinar and experienced team with a strong background in Artif
 
 ## What
 
-We help companies to enhance their offering by including Deep Learning and Machine Learning models in their products. We build custom solutions with state of the art technology, enabling our customers and partners to use Artificial Intelligence effectively. 
+We help companies to enhance their offering by including Deep Learning and Machine Learning models in their products. We build custom solutions with state of the art technology, enabling our customers and partners to use AI effectively.
+
+We also offer educational workshops and strategic roadmap planning for companies that are exploring their capabilities in AI.
 
 ## How
 
 <div class="container-fluid-how">
+
+<div class="row">
+
+<div class="how_col_fill"> 
+<h3>Education & Roadmap</h3><p>
+We identify key areas in your business where AI can have the maximum impact and we create an strategic roadmap planning. We also help you with educational workshops in the AI topics most relevant for your business.
+</p></div>
+
+<div style="clear: both;"></div>
+</div>
+
 <div class="row"> 
 
 <div class="how_col center-block"> 
@@ -54,6 +67,17 @@ We provide a ready-to-use and scalable solution deployment based on micro-servic
 
 <div style="clear: both;"></div>
 </div>
+
+<div class="row">
+
+<div class="how_col_fill"> 
+<h3>Life after us</h3><p>
+We are commited to provide solutions that continue to deliver value to your company in the long term. We support you re-training the deep learning models, updating your AI roadmap, design ad-hoc training courses for your team and/or help you to to hire the best data science and AI professionals.
+</p></div>
+
+<div style="clear: both;"></div>
+</div>
+
 </div>
 
 ## Technology
@@ -92,8 +116,4 @@ Python is the standard language for Machine Learning research and we use it exte
 <div style="clear: both;"></div>
 </div>
 </div>
-
-## Life after us
-
-Serendeepia is committed to their projects beyond the deployment to production. We would continue helping your startup beyond the product proof of concept. We design ad-hoc training courses for your team and/or help you to to hire the best data science and AI professionals.
 
