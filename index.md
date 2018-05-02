@@ -17,9 +17,9 @@ title: Home
 
 ## Who
 
-Serendeepia is a group of experts in Machine Learning and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.
+Serendeepia is a group of experts in Machine Learning and Deep Learning with a passion for startups. We build custom solutions based on state of the art research and we help our customers to develop their own capability to benefit from the use of Advanced Artificial Intelligence Techniques.
 
-We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Businesss. Over the last years we have been leading Machine Learning projects in large consultancy firms and startups around the world (London, San Francisco, Madrid).
+We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Business. Over the last years we have been leading Machine Learning projects in large consultancy firms and startups around the world (London, San Francisco, Madrid).
 
 <p style="text-align: center">
     <br>
@@ -30,9 +30,9 @@ We are a multidisciplinar and experienced team with a strong background in Artif
 
 ## What
 
-We help companies to enhance their offering by including Deep Learning and Machine Learning models in their products. We build custom solutions with state of the art technology, enabling our customers and partners to use AI effectively.
+We help companies to enhance their offering by including Deep Learning and Machine Learning models in their products. We build custom solutions with state of the art technology, enabling our customers and partners to use advanced AI effectively.
 
-We also offer educational workshops and strategic roadmap planning for companies that are exploring their capabilities in AI.
+We also offer educational workshops, talent spotting and strategic roadmap planning for companies that are exploring their opportunities and capabilities in AI.
 
 ## How
 
@@ -41,8 +41,8 @@ We also offer educational workshops and strategic roadmap planning for companies
 <div class="row">
 
 <div class="how_col_fill"> 
-<h3>Education & Roadmap</h3><p>
-We identify key areas in your business where AI can have the maximum impact and we create an strategic roadmap planning. We also help you with educational workshops in the AI topics most relevant for your business.
+<h3>Training, Talent Spotting & Strategy</h3><p>
+We identify key areas in your business where Data Science, Advanced Analytics and Artificial Intelligence can have the maximum impact and we create an strategic roadmap planning. We also help you with the required data scientist specialized training, designing custom training workshops in the AI topics most relevant for your business. We know that building a successful Data Science team is a huge challenge for any organization, and we use our experience assembling international Big Data Analytics teams to assist you in such an endeavour. 
 </p></div>
 
 <div style="clear: both;"></div>
