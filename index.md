@@ -32,7 +32,7 @@ We are a multidisciplinar and experienced team with a strong background in Artif
 
 We help companies to enhance their offering by including Deep Learning and Machine Learning models in their products. We build custom solutions with state of the art technology, enabling our customers and partners to use advanced AI effectively.
 
-We also offer educational workshops, talent spotting and strategic roadmap planning for companies that are exploring their opportunities and capabilities in AI.
+We also offer educational workshops, talent spotting and strategic roadmap planning for companies that are exploring their opportunities and capabilities in Artificial Intelligence.
 
 ## How
 
@@ -42,7 +42,7 @@ We also offer educational workshops, talent spotting and strategic roadmap plann
 
 <div class="how_col_fill"> 
 <h3>Training, Talent Spotting & Strategy</h3><p>
-We identify key areas in your business where Data Science, Advanced Analytics and Artificial Intelligence can have the maximum impact and we create an strategic roadmap planning. We also help you with the required data scientist specialized training, designing custom training workshops in the AI topics most relevant for your business. We know that building a successful Data Science team is a huge challenge for any organization, and we use our experience assembling international Big Data Analytics teams to assist you in such an endeavour. 
+We identify key areas in your business where Data Science, Advanced Analytics and Artificial Intelligence can have the maximum impact and we create an strategic roadmap planning. We also help you with the required data scientist specialized training, designing custom training workshops in the AI topics most relevant for your business. We know that building a successful Data Science team is a huge challenge for any organization, and we use our experience assembling international Big Data Analytics teams to assist you in such an endeavour, including Big Data and Data Science professional profile assessments, talent spotting and executive coaching. 
 </p></div>
 
 <div style="clear: both;"></div>
@@ -52,12 +52,12 @@ We identify key areas in your business where Data Science, Advanced Analytics an
 
 <div class="how_col center-block"> 
 <h3>Research</h3><p>
-We analyze your problem and design effective AI solutions based on state of the art technology and tools.
+We analyze your business challenge and design effective AI solutions based on state of the art technology and tools.
 </p></div>
 
 <div class="how_col center-block"> 
 <h3>MVP</h3><p>
-We design, develop, train and test deep learning models building AI minimum viable products.
+We design, develop, train and test deep learning models, building advanced AI Minimum Viable Products.
 </p></div>
 
 <div class="how_col center-block"> 
@@ -72,7 +72,7 @@ We provide a ready-to-use and scalable solution deployment based on micro-servic
 
 <div class="how_col_fill"> 
 <h3>Life after us</h3><p>
-We are commited to provide solutions that continue to deliver value to your company in the long term. We support you re-training the deep learning models, updating your AI roadmap, design ad-hoc training courses for your team and/or help you to to hire the best data science and AI professionals.
+We are commited to provide solutions that continue to deliver value to your company in the long term. We support you re-training the deep learning models, updating your AI roadmap, design ad-hoc training courses for your team and/or help you to to hire the best Data Science and AI professionals.
 </p></div>
 
 <div style="clear: both;"></div>
@@ -88,7 +88,7 @@ We are commited to provide solutions that continue to deliver value to your comp
 <div class="logo_col center-block"> 
 <img src="assets/logo_tensorflow.svg" alt="TensorFlow" class="logo">
     
-TensorFlow is one of the most used libraries used by researchers to create Deep Learning models. It was also designed by Google to be used for running models in production: <a href="https://cloud.google.com/products/machine-learning/">Cloud Machine Learning</a>, <a href="https://aws.amazon.com/">AWS</a> instances using <a href="https://www.tensorflow.org/serving/">TensorFlow Serving</a> or Android/iOs mobile apps.
+TensorFlow is one of the most popular libraries used by researchers to create Deep Learning models. It was also designed by Google to be used for running models in production: <a href="https://cloud.google.com/products/machine-learning/">Cloud Machine Learning</a>, <a href="https://aws.amazon.com/">AWS</a> instances using <a href="https://www.tensorflow.org/serving/">TensorFlow Serving</a> or Android/iOs mobile apps.
 
 </div> 
 
@@ -109,7 +109,7 @@ GitHub has become the standard version control repository for professional and o
 <div class="logo_col"> 
 <img alt="python" src="assets/logo_python.svg" class="logo"> 
 
-Python is the standard language for Machine Learning research and we use it extensively in our projects. We apply high standards to our code and experimentation with extensive documentation and unit testing.
+Python is the standard language for Machine Learning research and we use it extensively in our projects. We apply high standards to our code, research design and experimentation with high-quality documentation and unit testing.
 
 </div>
 
