@@ -16,22 +16,22 @@ We help you to identify the key growth areas of the digital ecosystem in your bu
 
 We build custom Deep Learning models that are easy to integrate into existing processes. We allow business units to deploy Artificial Intelligence capabilities without the difficulty and delay of trying to build an internal team. Here are some of the things we can do for you:
 
-| Images |
+| Images & Artificial Vision |
 |-|
 | Object classification, object recognition, semantic hashing, style matching, visual search. |
 
 
-| Text |
+| Text Analytics & Natural Language Processing |
 |-|
 | Classification, translation, summarization, text generation, text mining, semantic search. |
 
 
-| Time series |
+| Time series & Forecasting |
 |-|
 | Event prediction, anomaly detection, pattern recognition, clustering. |
 
 
-| User behaviour |
+| User behaviour & Activity Recognition |
 |-|
 | Recommendation engines, log analysis, click/sales prediction, segmentation. |
 
