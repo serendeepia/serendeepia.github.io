@@ -6,10 +6,10 @@ navigation_weight: 5
 
 ## Strategy
 
-We help you to identify the key are of your business and help you to understand how AI can maximize the value that your company provides to your clients. We show you what is possible with deep learning and what techniques are the most appropriate for your problems. We work with you to create a roadmap planning to integrate AI in your business step by step while managen the impact of such a disruptive change.
+We help you to identify the key growth areas of the digital ecosystem in your business and to understand how Artificial Intelligence can maximize the value that your company provides to customers. Our main aim is to provide you with a pragmatic understanding of what is actually achievable using Deep Learning techniques and what approaches are the most appropriate for your current and future challenges. We work with you to create a custom roadmap to integrate AI into your business, step by step, while managing the impact of such a disruptive change.
 
 <div class="slogan">
-    <p>Analysis ⟶ Key points ⟶ Idea Generation ⟶ Roadmap Planning</p>
+    <p>Use Case Analysis ⟶ Key Innovations ⟶ Idea Generation ⟶ Business Case ⟶ Roadmap</p>
 </div>
  
 ## Product & Services
