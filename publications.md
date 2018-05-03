@@ -6,14 +6,18 @@ navigation_weight: 4
 
 ## 2017
 
+**A versatile annotated dataset for multimodal locomotion analytics with mobile devices** 
+Hristijan Gjoreski, Mathias Ciliberto,  _Francisco Javier Ordóñez_,Danuel Roggenn, Sami Mekki, Stefan Valentin
+November 2017, Proceedings of the 15th ACM Conference on Embedded Network Sensor Systems
+
 **High reliability Android application for multidevice multimodal mobile data acquisition and annotation**  
-Mathias Cilliberto, _Francisco Javier Ordóñez_, Hristijan Gjoreski, Danuel Roggen, Sami Mekki, Daniel Roggen  
-August 2017, Proceedings of the ACM Conference on Embedded Networked Sensor Systems
+Mathias Ciliberto, _Francisco Javier Ordóñez_, Hristijan Gjoreski, Danuel Roggen, Sami Mekki, Daniel Roggen  
+November 2017, Proceedings of the ACM Conference on Embedded Networked Sensor Systems
 
 ## 2016
 
 **Exploring human activity annotation using a privacy preserving 3D model**  
-Mathias Cilliberto, Daniel Roggen, _Francisco Javier Ordóñez_  
+Mathias Ciliberto, Daniel Roggen, _Francisco Javier Ordóñez_  
 September 2016, Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing, Heidelberg, Germany
 
 **Electric field phase sensing for wearable orientation and localisation applications**  
