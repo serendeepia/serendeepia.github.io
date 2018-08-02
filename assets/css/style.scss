@@ -6,7 +6,7 @@
 body {
   font: 16px/1.6 "Open+Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #fff;
-  padding: 50px 0px 40px 0px;
+  padding: 50px 0 40px 0;
   margin: 0;
   color: #727272;
   font-weight: 400;
@@ -29,6 +29,7 @@ body {
 }
 
 div.slogan {
+  margin-top: 24px;
   padding: 20px 20px;
   background: #f8f8f8;
   margin-bottom: 20px;
@@ -57,15 +58,12 @@ div.wrapper {
   margin: auto;
 }
 
-header {
-  border-bottom: 1px solid #e5e5e5;
-}
-
 header h1 {
   display: inline;
   float: left;
   font-family: "Montserrat", "Open+Sans", sans-serif;
   font-size: 40px;
+  font-weight: 600;
   margin: 0 0 12px;
 }
 
@@ -89,10 +87,7 @@ header a small {
 
 header nav.main-nav {
   float: right;
-  margin-top: 32px;
-  margin-bottom: -1px;
-  margin-left: 4px;
-  margin-right: 0px;
+  margin: 14px 0 0 4px;
 }
 
 header nav.main-nav ul {
@@ -106,36 +101,26 @@ header nav.main-nav ul {
 }
 
 header nav.main-nav ul li {
-  margin: 0;
-  border: 1px solid #ffffff;
-  border-bottom: 1px solid #e5e5e5;
   display: inline-block;
+  margin: 0 10px;
+  width: auto;
 }
 
 header nav.main-nav ul li a {
   display: block;
   text-align: center;
-  padding: 8px 12px 8px 12px;
+  padding: 8px 0 4px 0;
   text-decoration: none;
+  border-bottom: 2px #fff solid;
 }
 
 header nav.main-nav ul li:not(.active) a:hover {
-  background: #f7f7f7;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom: 2px #e5e5e5 solid;
 }
 
 header nav.main-nav ul li.active a {
+  border-bottom: 2px #727272 solid;
   color: black;
-}
-
-nav.main-nav ul .active {
-  color: #4a3a8b;
-  z-index: 2;
-  border: 1px solid #e5e5e5;;
-  border-bottom-color: #FFF;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
 }
 
 section {
@@ -1160,11 +1145,42 @@ section p {
   margin-right: auto;
 }
 
+footer p, footer ul{
+
+  margin: 10px 0 24px 0;
+}
+
 footer p {
   font-size: 80%;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer ul {
+  font-size: 80%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  overflow: hidden;
+  border: none;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 10px;
+  border-left: 1px #ccc solid;
+}
+
+footer ul li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+footer ul li:last-child {
+  padding-right: 0;
 }
 
 p, ul, ol, table, pre, dl {
@@ -1278,6 +1294,7 @@ hr {
 }
 
 footer {
+  margin-top: 80px;
   padding: 20px;
   border-top: 1px solid #e5e5e5;
   float: left;
@@ -1372,7 +1389,7 @@ div.how_col h3, div.how_col_fill h3 {
     width: 100%;
     max-width: 100%;
     margin: 8px auto;
-    padding: 2px 10px 0px 10px;
+    padding: 2px 10px 0 10px;
     font-size: 100%;
   }
 
@@ -1381,12 +1398,12 @@ div.how_col h3, div.how_col_fill h3 {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
 
   header nav.main-nav {
     clear: left;
     float: left;
-    margin: 4px 0 -1px 0;
+    margin: 0;
   }
 
   nav.main-nav ul li.right,
@@ -1424,9 +1441,14 @@ div.how_col h3, div.how_col_fill h3 {
 
 @media screen and (max-width: 720px) {
 
-  header nav.main-nav ul li a {
-    padding: 4px 8px 4px 8px;
+  footer ul li {
+    display: block;
+    padding: 0;
+    border: none;
   }
+}
+
+@media screen and (max-width: 720px) {
 
   div.slogan p cite {
     font-size: 1.6em;
@@ -1457,8 +1479,8 @@ div.how_col h3, div.how_col_fill h3 {
   }
 
   div.how_col, div.how_col_fill {
-    border-radius: 0px;
-    padding: 2px 0px 12px 0px;
+    border-radius: 0;
+    padding: 2px 0 12px 0;
     font-size: 100%;
   }
 
@@ -1476,25 +1498,12 @@ div.how_col h3, div.how_col_fill h3 {
   }
 }
 
-@media print, screen and (max-width: 510px) {
-
-  header nav.main-nav {
-    float: left;
-    margin-top: 8px;
-  }
-
-  nav.main-nav ul li.right,
-  nav.main-nav ul li {
-    float: none;
-    width: auto;
-  }
-
-  header nav.main-nav ul li a {
-    padding: 2px 4px 2px 4px;
-  }
-}
-
 @media print, screen and (max-width: 480px) {
+
+  footer {
+    margin-top: 20px;
+  }
+
   section, footer {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1510,15 +1519,22 @@ div.how_col h3, div.how_col_fill h3 {
   }
 
   div.how_col, div.how_col_fill {
-    border-radius: 0px;
-    padding: 2px 0px 12px 0px;
+    border-radius: 0;
+    padding: 2px 0 12px 0;
   }
 
   div.logo_col {
     padding: 10px 10px;
   }
-}
 
+  header nav.main-nav ul li {
+    margin: 0 6px;
+  }
+
+  header nav.main-nav ul li a {
+    padding: 6px 0 2px 0;
+  }
+}
 
 @media screen and (max-width: 410px) {
 
@@ -1548,13 +1564,28 @@ div.how_col h3, div.how_col_fill h3 {
     font-size: 1.3em;
   }
 
-  header nav.main-nav ul .active {
+  header nav.main-nav ul li.active {
     color: #4a3a8b;
     z-index: 2;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    border: none;
     background: #f7f7f7;
-    border-bottom: 1px solid #e5e5e5;
+  }
+
+  header nav.main-nav {
+    width: 100%;
+  }
+
+  header nav.main-nav ul li {
+    width: 100%;
+  }
+  header nav.main-nav ul li a {
+    border-bottom: none;
+  }
+
+  header nav.main-nav ul li:not(.active) a:hover {
+    border-bottom: none;
+  }
+
+  header nav.main-nav ul li.active a {
+    border-bottom: none;
   }
 }
