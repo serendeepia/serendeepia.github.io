@@ -5,7 +5,7 @@ title: Home
 
 <div class="slogan">
     <p>
-        <cite>Artificial Intelligence solutions for your business based on state of the art research</cite>
+        <cite>Artificial Intelligence solutions for your business based on the state of the art research</cite>
     </p>
     <p style="text-align: center">
         <br>
