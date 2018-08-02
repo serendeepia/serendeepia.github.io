@@ -48,8 +48,12 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus {
+header h1 a {
   color: #5945a6;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
   text-decoration: underline;
 }
 
@@ -63,7 +67,7 @@ header h1 {
   float: left;
   font-family: "Montserrat", "Open+Sans", sans-serif;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: bold;
   margin: 0 0 12px;
 }
 
@@ -78,7 +82,6 @@ header h1 a span {
 
 header h1 a:hover, header h1 a:focus {
   text-decoration: none;
-  font-weight: bold;
 }
 
 header a small {
@@ -1565,7 +1568,6 @@ div.how_col h3, div.how_col_fill h3 {
   }
 
   header nav.main-nav ul li.active {
-    color: #4a3a8b;
     z-index: 2;
     background: #f7f7f7;
   }
