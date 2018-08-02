@@ -6,13 +6,13 @@ navigation_weight: 6
 
 ## Working at Serendeepia 
 
-Our mission is to enhance business through new innovations in Artificial Intelligence with state of the art research. We are always looking for world-class talent in Machine Learning and Deep Learning. We are a remote team of talented enthusiastic and hard working innovators.
+Our mission is to enhance business through new innovations in Artificial Intelligence with the state of the art research. We are always looking for world-class talent in Machine Learning and Deep Learning. We are a remote team of talented enthusiastic and hard working innovators.
 
 ## Job opportunities
 
 There are currently no open positions. However, we are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV or projects you have worked before and tell us why you want to be part of Serendeepia:
 
-<p style="text-align: center;">
+<p style="text-align: center; margin-top: 40px;">
 
 <span class="icon">
     <svg viewBox="0 4.801209 28.3499966 18.7475815">

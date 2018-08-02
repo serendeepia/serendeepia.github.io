@@ -52,7 +52,7 @@ We identify key areas in your business where Data Science, Advanced Analytics an
 
 <div class="how_col center-block"> 
 <h3>Research</h3><p>
-We analyze your business challenge and design effective AI solutions based on state of the art technology and tools.
+We analyze your business challenge and design effective AI solutions based on the state of the art technology and tools.
 </p></div>
 
 <div class="how_col center-block"> 
