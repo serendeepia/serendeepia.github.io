@@ -7,7 +7,7 @@ title: Legal information
 
 ### Identifying data
 
-This website with URL _serendeepia.com_, belongs to _Serendeepia Research SL_, (hereinafter, _Serendeepia_), with address in Getafe, Calle Góngora 28, 28905, registered in the Commercial Registry of Madrid, in volume 37795, book 0, page 43, section 8, sheet M 673257, provided with Tax Identification Code B88108915.
+This website with URL _serendeepia.com_, belongs to _Serendeepia Research S.L._, (hereinafter, _Serendeepia_), with address in Getafe, Calle Góngora 28, 28905, registered in the Commercial Registry of Madrid, in volume 37795, book 0, page 43, section 8, sheet M 673257, provided with Tax Identification Code B88108915.
 
 You can contact us by email at: contact@serendeepia.com
 
@@ -41,11 +41,11 @@ _Serendeepia_ will not communicate your data to any third party, unless you are 
 
 The data protection rights of the data subjects who own the data are the following:
 
-- The right to request access to the personal data pertaining to the data subject.
-- The right to request access to the personal data pertaining to the data subject.
-- The right to objection.
-- The right to request the limitation of the processing.
-- The right to the portability of the data.
+The right to request access to the personal data pertaining to the data subject.
+The right to request access to the personal data pertaining to the data subject.
+The right to objection.
+The right to request the limitation of the processing.
+The right to the portability of the data.
 
 The owners of the personal data obtained may exercise their personal data protection rights by sending a letter to the registered corporate address of _Serendeepia_ or by sending an email to the address provided for this purpose at contact@serendeepia.com, in both cases including a photocopy of their DNI (National Identity Document) or any other, equivalent identification document.
 
@@ -116,11 +116,11 @@ _Serendeepia_ no comunicará sus datos a ningún tercero, salvo que se informe d
 
 Los derechos de protección de datos de los que son titulares los interesados son:
 
-- Derecho a solicitar el acceso a los datos personales relativos al interesado.
-- Derecho de rectificación o supresión.
-- Derecho de oposición.
-- Derecho a solicitar la limitación de su tratamiento.
-- Derecho a la portabilidad de los datos.
+Derecho a solicitar el acceso a los datos personales relativos al interesado.
+Derecho de rectificación o supresión.
+Derecho de oposición.
+Derecho a solicitar la limitación de su tratamiento.
+Derecho a la portabilidad de los datos.
 
 Los titulares de los datos personales obtenidos, podrán ejercer sus derechos de protección de datos personales dirigiendo una comunicación por escrito al domicilio social de _Serendeepia_ o al correo electrónico habilitado a tal efecto, contact@serendeepia.com, incluyendo en ambos casos fotocopia de su DNI u otro documento de identificación equivalente.
 
