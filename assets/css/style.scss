@@ -43,6 +43,23 @@ div.slogan p cite {
   font-size: 2em;
 }
 
+div.team {
+  background: #f8f8f8;
+}
+
+div.team img {
+  margin: 0;
+}
+
+div.team p cite {
+  font-size: 1.4em;
+}
+
+div.team p {
+  padding: 20px;
+  text-align: center;
+}
+
 a {
   color: #4a3a8b;
   text-decoration: none;
@@ -1198,8 +1215,19 @@ h2 {
   margin-top: 1.4em;
 }
 
+img.left {
+  float: left;
+  margin: 1.6em 1.6em 0.4em 0;
+}
+
+img.right {
+  float: right;
+  margin: 1.6em 0 0.4em 1.6em;
+}
+
 img.member {
-  margin: 1.6em 20px 20px 20px;
+  width: 260px;
+  height: 260px;
 }
 
 h1 {
@@ -1457,6 +1485,11 @@ div.how_col h3, div.how_col_fill h3 {
     font-size: 1.6em;
   }
 
+  img.member {
+    width: 240px;
+    height: 240px;
+  }
+
   body {
     word-wrap: break-word;
     padding: 15px 0;
@@ -1499,6 +1532,11 @@ div.how_col h3, div.how_col_fill h3 {
   div.slogan p {
     text-align: left;
   }
+
+  img.member {
+    width: 220px;
+    height: 220px;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -1537,6 +1575,11 @@ div.how_col h3, div.how_col_fill h3 {
   header nav.main-nav ul li a {
     padding: 6px 0 2px 0;
   }
+
+  img.member {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -1567,6 +1610,15 @@ div.how_col h3, div.how_col_fill h3 {
     font-size: 1.3em;
   }
 
+  div.slogan p cite.team {
+    font-size: 0.9em;
+  }
+
+  img.member {
+    width: 170px;
+    height: 170px;
+  }
+
   header nav.main-nav ul li.active {
     z-index: 2;
     background: #f7f7f7;
@@ -1589,5 +1641,13 @@ div.how_col h3, div.how_col_fill h3 {
 
   header nav.main-nav ul li.active a {
     border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 340px) {
+
+  img.member {
+    width: auto;
+    height: auto;
   }
 }
