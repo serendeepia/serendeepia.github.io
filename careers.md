@@ -22,5 +22,5 @@ There are currently no open positions. However, we are always keen to meet energ
           d="M14.9370966,15.7754021L27.587904,4.801209H0.9145162l12.6508064,10.9741936 C13.870162,16.0802422,14.4798384,16.0802422,14.9370966,15.7754021z"/>
     </svg>
 </span>
-<a href="mailto:contact@serendeepia.com?subject=Career">contact@serendeepia.com</a>
+<a href="mailto:careers@serendeepia.com">careers@serendeepia.com</a>
 </p>
