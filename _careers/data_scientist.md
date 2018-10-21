@@ -1,7 +1,7 @@
 ---
 layout: career
 title: "Data Scientist"
-open: true
+open: false
 ---
 
 Description of the job position. This text should be truncated
