@@ -1,0 +1,10 @@
+{% include header.html %}
+<section class="news">
+
+    <h2>{{ page.title }}</h2>
+    <p class="date"><em>{{page.date | date_to_string }}</em></p>
+
+    {{ content }}
+
+</section>
+{% include footer.html %}

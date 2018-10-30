@@ -1,8 +1,8 @@
 ---
 layout: career
-title: Data Scientist
+title: Deep Learning Engineer
 open: true
-weight: 2
+weight: 1
 ---
 
 Description of the job position. This text should be truncated

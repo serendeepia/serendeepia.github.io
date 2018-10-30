@@ -15,7 +15,8 @@ Serendeepia is still a small company with a lot of challenges ahead. We aim to g
 ## Job opportunities
 
 {% assign counter = 0 %}
-{% for position in site.careers %}
+{% assign careers = site.careers | sort:"weight" %}
+{% for position in careers %}
 {% if position.open == true %}
 {% assign counter=counter | plus:1 %}
 ### [{{ position.title }}]({{position.url}})
