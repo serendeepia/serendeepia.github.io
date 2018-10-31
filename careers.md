@@ -19,14 +19,14 @@ Serendeepia is still a small company with a lot of challenges ahead. We aim to g
 {% for position in careers %}
 {% if position.open == true %}
 {% assign counter=counter | plus:1 %}
-### [{{ position.title }}]({{position.url}})
+<h3><a href="{{position.url}}">{{ position.title }}</a></h3>
 {% assign num_words = position.content | number_of_words %}
 {% if num_words > 100 %}
-{{ position.content | truncatewords: 100 | markdownify}}  
-_[Read more]({{ position.url }})_
+{{ position.content | truncatewords: 100 }} <em><a href="{{ position.url }}">Read more</a></em>
 {% else %}
-{{ position.content | markdownify }}
+{{ position.content }}
 {% endif %}
+<br>
 {% endif %}
 {% endfor %}
 
@@ -35,8 +35,10 @@ _[Read more]({{ position.url }})_
 There are currently no open positions. However, we are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV or projects you have worked before and tell us why you want to be part of Serendeepia:
 <p style="text-align: center; margin-top: 40px;">
 {% else %}
-### Other positions
+<h3>Other positions</h3>
+<p>
 We are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV or projects you have worked before and tell us why you want to be part of Serendeepia:
+</p>
 <p style="text-align: center;">
 {% endif %}
 <span class="icon">

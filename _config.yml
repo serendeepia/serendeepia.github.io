@@ -10,3 +10,4 @@ exclude:
   - 'serendeepia.github.io.iml'
   - 'Gemfile'
   - 'Gemfile.lock'
+  - '.idea'

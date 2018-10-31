@@ -5,24 +5,12 @@ open: true
 weight: 10
 ---
 
-We are looking for a Big Data Architect/Engineer who can help us to create custom Big Data platforms for our clients. You will be in charge of deciding the best architecture that fulfil the needs of the clients and to deploy the platform. You will be part of a team of Data Scientist who will help you to define the requirements of the platform.
+We are looking for Deep Learning / Data Scientist enthusiasts that want to keep learning and working in new challenges creating minimum viable products to test different ideas or help with cutting edge projects.
 
-Ideally you like to play the latest Big Data tools when you have a chance to do it but you only use mature solutions for production environments. You also have some interest for the Data Science and Machine Learning world.
-
-This is an initial contract position for a month with an daily rate of 300€. We hope to keep you in our network for more future projects until we can afford a full time position.
-
-Responsibilities
-* Work with clients to capture their needs for the Big Data platform
-* Work with Data Scientists to decide the best approach for the platform
-* Decide the best tools in the cloud to create the platform
-* Deploy the platform for the client 
-* Write documentation to maintain the platform
+Right now this is not a paid position. The main goal of the position is to offer enthusiasts the opportunity to keep improving their skills in order to find a full time position as Machine Learning Engineer or Data Scientist. You wont participate in any project that generate revenue for the company. This position is for side projects with high research component. You can bring your own ideas too. 
 
 Desirable skills and qualifications
-* Experience working with the common Big Data ecosystems: AWS, Azure
-* Knowledge of Big Data tools used by Data Scientist: Databricks, Azure Machine Learning Studio
-* Interest for new Big Data tools: 
-* Understanding of cluster platforms as Kubernetes
+* Good machine learning, statistical or mathematical background
+* Some experience with Deep Learning Frameworks: TensorFlow, Keras, PyTorch
 * Ability to communicate complex technical concepts to both technical and non-technical audiences 
-* Willing to face new challenges when needed
-* Entrepreneurial mindset
+* Autonomy & Entrepreneurial mindset

@@ -1,6 +1,6 @@
 ---
 layout: career
-title: Big Data Architect/Engineer (contractor 40€/h)
+title: Big Data Architect/Engineer (contractor 40 €/h)
 open: false
 weight: 4
 ---

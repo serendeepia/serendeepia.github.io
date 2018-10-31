@@ -1,6 +1,6 @@
 ---
 layout: career
-title: Data Scientist (contractor 40€/h)
+title: Data Scientist (contractor 40 €/h)
 open: true
 weight: 2
 ---
