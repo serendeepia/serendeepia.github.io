@@ -4,6 +4,8 @@ title: Success Stories
 #navigation_weight: 0
 ---
 
+# Success Stories
+
 {% for story in site.success_stories %}
 
 ## [{{ story.title }}]({{ story.url }})

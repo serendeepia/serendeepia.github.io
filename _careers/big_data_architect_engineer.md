@@ -1,6 +1,6 @@
 ---
 layout: career
-title: Big Data Architect/Engineer
+title: Big Data Architect/Engineer (contractor 40€/h)
 open: false
 weight: 4
 ---
@@ -9,7 +9,7 @@ We are looking for a Big Data Architect/Engineer who can help us to create custo
 
 Ideally you like to play the latest Big Data tools when you have a chance to do it but you only use mature solutions for production environments. You also have some interest for the Data Science and Machine Learning world.
 
-This is an initial contract position for a month with an daily rate of 300€. We hope to keep you in our network for more future projects until we can afford a full time position.
+This is an initial contract position for a short projects (1 to 3 months) with an hourly rate of 40€. We hope to keep you in our network for more future projects until we can afford a full time position.
 
 Responsibilities
 * Work with clients to capture their needs for the Big Data platform
@@ -25,4 +25,4 @@ Desirable skills and qualifications
 * Understanding of cluster platforms as Kubernetes
 * Ability to communicate complex technical concepts to both technical and non-technical audiences 
 * Willing to face new challenges when needed
-* Entrepreneurial mindset
+* Autonomy & Entrepreneurial mindset
