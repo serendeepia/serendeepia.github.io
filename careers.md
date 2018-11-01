@@ -6,11 +6,11 @@ navigation_weight: 6
 
 ## Working at Serendeepia 
 
-Our mission is to enhance business through new innovations in Artificial Intelligence with the state of the art research. You will be part of a team of world-class talent in Machine Learning and Deep Learning. 
+Our mission is to enhance business through new innovations in Artificial Intelligence with the state of the art research. You will be part of a team of world-class talent in Machine Learning, Deep Learning and Artificial Cognitive Systems. 
 
 We are a remote team of talented enthusiastic and hard working innovators. You will have the chance to work with people all over the world from the place that best suits your needs and with flexible time.
 
-Serendeepia is still a small company with a lot of challenges ahead. We aim to grow in a pace that allow us a good balance between personal and professional live. You will have a huge impact in future of the company. 
+Serendeepia is still a small company with a lot of challenges ahead. We aim to grow in a pace that allow us a good balance between personal and professional live. You will have a huge impact in the future of the company. 
 
 ## Job opportunities
 
@@ -32,12 +32,12 @@ Serendeepia is still a small company with a lot of challenges ahead. We aim to g
 
 
 {% if counter == 0 %}
-There are currently no open positions. However, we are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV or projects you have worked before and tell us why you want to be part of Serendeepia:
+There are currently no open positions. However, we are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV and project portfolio and tell us why you want to be part of Serendeepia:
 <p style="text-align: center; margin-top: 40px;">
 {% else %}
 <h3>Other positions</h3>
 <p>
-We are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV or projects you have worked before and tell us why you want to be part of Serendeepia:
+We are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV and project portfolio and tell us why you want to be part of Serendeepia:
 </p>
 <p style="text-align: center;">
 {% endif %}
