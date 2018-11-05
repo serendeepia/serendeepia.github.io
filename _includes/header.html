@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" href="/favicon.ico">
+    <title>{{ site.title | default: site.github.repository_name }} - {{ page.title }}</title>
+
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!--<link rel="stylesheet" href="{{ '/assets/css/theme.css?v=' | append: site.github.build_revision | relative_url }}">-->
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="description"
+          content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.">
+    <meta property="og:title" content="{{ site.title | default: site.github.repository_name }} - {{ page.title }}"/>
+    <meta property="og:image" content="http://serendeepia.com/assets/logo.svg"/>
+    <meta property="og:description"
+          content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence."/>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1><a href="/">
+            <img src="/assets/logo.svg" width="52px"/>
+            <span>{{ site.title | default: site.github.repository_name }}</span>
+        </a></h1>
+        <nav class="main-nav">
+            <ul class="nav nav-tabs">
+                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+                {% for p in navigation_pages %}{% if p.navigation_weight %}
+                <li {% if p.url== page.url %} class="active" {% endif %}>
+                    <a href="{{ p.url }}">{{p.title }}</a>
+                </li>
+                {% endif %}{% endfor %}
+            </ul>
+        </nav>
+        <div style="clear: both"></div>
+    </header>

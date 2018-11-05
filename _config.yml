@@ -1,7 +1,13 @@
 title: Serendeepia
 #google_analytics:
 theme: jekyll-theme-minimal
+collections:
+  careers:
+    output: true
+  success_stories:
+    output: true
 exclude:
   - 'serendeepia.github.io.iml'
   - 'Gemfile'
   - 'Gemfile.lock'
+  - '.idea'

@@ -1,9 +1,6 @@
 ---
-layout: mylayout
-title:  "Serendeepia has born"
-summary: "This is the summary of the post"
+layout: post
+title: Serendeepia has born
 ---
-
-## Serendeepia has born
 
 Hello world!

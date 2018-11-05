@@ -42,6 +42,20 @@ div.slogan p {
 div.slogan p cite {
   font-size: 2em;
 }
+div.note {
+  margin-top: 12px;
+  padding: 10px 10px;
+  background: #f8f8f8;
+  margin-bottom: 10px;
+}
+
+div.note p {
+  text-align: center;
+}
+
+div.note p cite {
+  font-size: 1.2em;
+}
 
 div.team {
   background: #f8f8f8;
@@ -146,6 +160,13 @@ header nav.main-nav ul li.active a {
 section {
   padding: 20px;
   margin: 0 0 20px;
+}
+
+section ul{
+
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -1159,7 +1180,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
-section p {
+section.news h2{
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+}
+
+section p.date{
+	margin-bottom: 1.2em;
+	font-size: 0.9em;
+}
+
+section p{
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;

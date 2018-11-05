@@ -1,13 +1,19 @@
 ---
-layout: mylayout
+layout: news
 title: News
+#navigation_weight: 0
 ---
-
-{% assign sorted_posts = site.posts | sort: date | reverse %}
-{% for post in sorted_posts %}
+{% for post in site.posts %}
 
 ## [{{ post.title }}]({{ post.url }})
+<p class="date"><em>{{post.date | date_to_string }}</em></p>
 
-{{ post.summary }}... <a href="{{ post.url }}">continue reading</a>
+{% assign num_words = post.content | number_of_words %}
+{% if num_words > 100 %}
+{{ post.content | truncatewords: 100 | markdownify}}
+_[Continue reading]({{ post.url }})_
+{% else %}
+{{ post.content | markdownify }}
+{% endif %}
 
 {% endfor %}

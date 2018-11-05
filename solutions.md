@@ -4,6 +4,24 @@ title: Solutions
 navigation_weight: 5
 ---
 
+{% assign success_stories = site.success_stories | size %}
+{% if success_stories > 0 %}
+
+## [Success stories](/success_stories.html)
+
+{% for story in site.success_stories limit:5 %}
+### [{{ story.title }}]({{ story.url }})
+{% assign num_words = story.content | number_of_words %}
+{% if num_words > 70 %}
+{{ story.content | truncatewords: 70 | markdownify}}
+_[Continue reading]({{ story.url }})_
+{% else %}
+{{ story.content | markdownify }}
+{% endif %}
+{% endfor %}
+
+{% endif %}
+
 ## Strategy
 
 We help you to identify the key growth areas of the digital ecosystem in your business and to understand how Artificial Intelligence can maximize the value that your company provides to customers. Our main aim is to provide you with a pragmatic understanding of what is actually achievable using Deep Learning techniques, focusing on what approaches are the most appropriate for your current and future challenges. We work with you to create a custom roadmap to integrate AI into your business, step by step, while managing the impact of such a disruptive change.
