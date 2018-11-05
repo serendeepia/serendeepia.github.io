@@ -9,7 +9,7 @@ We are looking for a Data Scientist who can work in different projects. A person
  
 Ideally you like to participate in Kaggle competitions or similar. You enjoy cleaning and understanding the data, building insighful visualizations and trying different algorithms like random forest or gradient boosting. Of course, all your projects follow the scientific method.
 
-This is an initial contract position for a short projects (1 to 3 months) with an hourly rate of 40€. We hope to keep you in our network for more future projects until we can afford a full time position.
+This is an initial contract position for a short projects (1 to 3 months) with an hourly rate of 40€. Once in our network there will be very solid possibilities to be involved in further projects.
 
 Responsibilities
 * Cleaning and analyzing datasets
