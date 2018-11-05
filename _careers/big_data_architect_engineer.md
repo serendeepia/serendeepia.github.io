@@ -9,7 +9,7 @@ We are looking for a Big Data Architect/Engineer who can help us to create custo
 
 Ideally, you like to play with the latest Big Data tools when you have a chance to do it, but you only use mature solutions for production environments. You also have some interest for the Data Science and Machine Learning world.
 
-This is an initial contract position for a short project (1 to 3 months) with an hourly rate of gross 40€. We hope to keep you in our network for more future projects until we can afford a full time position.
+This is an initial contract position for a short project (1 to 3 months) with an hourly rate of gross 40€. Once in our network there will be very solid possibilities to be involved in further projects
 
 Responsibilities
 * Work with clients to capture their needs for the Big Data platform
