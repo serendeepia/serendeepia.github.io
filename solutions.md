@@ -12,9 +12,11 @@ navigation_weight: 5
 {% for story in site.success_stories limit:5 %}
 ### [{{ story.title }}]({{ story.url }})
 {% assign num_words = story.content | number_of_words %}
-{% if num_words > 70 %}
-{{ story.content | truncatewords: 70 | markdownify}}
-_[Continue reading]({{ story.url }})_
+{% if num_words > 60 %}
+
+{% capture summary %}{{ story.content | truncatewords: 60 }} 
+<em><a href="{{ story.url }}">Continue reading</a></em>{% endcapture %}
+{{ summary | markdownify }} 
 {% else %}
 {{ story.content | markdownify }}
 {% endif %}

@@ -22,11 +22,12 @@ Serendeepia is still a small company with a lot of challenges ahead. We aim to g
 <h3><a href="{{position.url}}">{{ position.title }}</a></h3>
 {% assign num_words = position.content | number_of_words %}
 {% if num_words > 100 %}
-{{ position.content | truncatewords: 100 }} <em><a href="{{ position.url }}">Read more</a></em>
+{% capture summary %}{{ position.content | truncatewords: 100 }} 
+<em><a href="{{ position.url }}">Read more</a></em>{% endcapture %}
+{{ summary | markdownify }} 
 {% else %}
-{{ position.content }}
+{{ position.content | markdownify }}
 {% endif %}
-<br>
 {% endif %}
 {% endfor %}
 
