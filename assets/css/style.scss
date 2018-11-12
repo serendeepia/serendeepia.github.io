@@ -1265,6 +1265,27 @@ img.member {
   height: 260px;
 }
 
+div.clear{
+	width: 100%;
+	clear: both;
+}
+
+img.success_story_large {
+  margin-bottom: 0.2em;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+img.success_story_small {
+  float: left;
+  object-fit: cover;
+  height: 200px;
+  width: 260px;
+  margin-right: 1em;
+  margin-bottom: 0.2em;
+}
+
 h1 {
   font-size: 28px;
 }
@@ -1540,7 +1561,7 @@ div.how_col h3, div.how_col_fill h3 {
     padding-right: 0;
   }
 
-  section p, section h2, section h3, section h4, header, footer, form {
+  section p, section h1, section h2, section h3, section h4, header, footer, form {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -1615,6 +1636,14 @@ div.how_col h3, div.how_col_fill h3 {
     width: 200px;
     height: 200px;
   }
+
+  img.success_story_small {
+    object-fit: cover;
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+    margin-bottom: 0.2em;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -1654,6 +1683,14 @@ div.how_col h3, div.how_col_fill h3 {
     height: 170px;
   }
 
+  img.success_story_small {
+    object-fit: cover;
+    height: auto;
+    max-height: 170px;
+    width: 100%;
+    margin-bottom: 0.2em;
+  }
+
   header nav.main-nav ul li.active {
     z-index: 2;
     background: #f7f7f7;
@@ -1684,5 +1721,13 @@ div.how_col h3, div.how_col_fill h3 {
   img.member {
     width: auto;
     height: auto;
+  }
+
+  img.success_story_small {
+    object-fit: cover;
+    height: auto;
+    max-height: 160px;
+    width: 100%;
+    margin-bottom: 0.2em;
   }
 }

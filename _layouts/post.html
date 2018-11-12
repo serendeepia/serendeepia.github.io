@@ -1,6 +1,10 @@
 {% include header.html %}
 <section class="news">
 
+    {% if page.image %}
+    <p><img src="/assets/{{page.image}}" width="100%" height="100%"/></p>
+    {% endif %}
+
     <h2>{{ page.title }}</h2>
     <p class="date"><em>{{page.date | date_to_string }}</em></p>
 
