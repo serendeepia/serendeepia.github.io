@@ -9,8 +9,13 @@ navigation_weight: 5
 
 ## [Success stories](/success_stories.html)
 
-{% for story in site.success_stories limit:5 %}
+{% for story in site.success_stories reversed limit:5 %}
 ### [{{ story.title }}]({{ story.url }})
+
+{% if story.image %}
+<img src="/assets/{{story.image}}" class="success_story_small"/>
+{% endif %}
+
 {% assign num_words = story.content | number_of_words %}
 {% if num_words > 60 %}
 
@@ -20,6 +25,9 @@ navigation_weight: 5
 {% else %}
 {{ story.content | markdownify }}
 {% endif %}
+
+<div class='clear'></div>
+
 {% endfor %}
 
 {% endif %}
