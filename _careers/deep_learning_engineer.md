@@ -12,9 +12,9 @@ Ideally you like to read and understand Deep Learning papers to be aware of the 
 This is an initial contract position for a short projects (1 to 3 months) with an hourly rate of 40€. Once in our network there will be very solid possibilities to be involved in further projects.
 
 Responsibilities
-* Cleaning and prepare the datasets
-* Choose the best state of the art model for the project
-* Provide metrics of the quality of the models
+* Clean and prepare datasets
+* Choose the best state of the art model for each project
+* Provide quality metrics of the models
 * Deploy models in production environments doing the required integrations
 
 Desirable skills and qualifications
