@@ -4,14 +4,20 @@ title: Publications
 navigation_weight: 4
 ---
 
+## 2018
+
+**The University of Sussex-Huawei locomotion and transportation dataset for multimodal analytics with mobile devices** [**[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8418369)**]  
+Hristijan Gjoreski, Mathias Ciliberto, Lin Wang, _Francisco Javier Ordóñez_, Sami Mekki, Stefan Valentin, Daniel Roggen
+June 2018, IEEE Access
+
 ## 2017
 
 **A versatile annotated dataset for multimodal locomotion analytics with mobile devices**  
-Hristijan Gjoreski, Mathias Ciliberto,  _Francisco Javier Ordóñez_,Danuel Roggenn, Sami Mekki, Stefan Valentin
+Hristijan Gjoreski, Mathias Ciliberto, _Francisco Javier Ordóñez_,Danuel Roggen, Sami Mekki, Stefan Valentin
 November 2017, Proceedings of the 15th ACM Conference on Embedded Network Sensor Systems
 
 **High reliability Android application for multidevice multimodal mobile data acquisition and annotation**  
-Mathias Ciliberto, _Francisco Javier Ordóñez_, Hristijan Gjoreski, Danuel Roggen, Sami Mekki, Daniel Roggen  
+Mathias Ciliberto, _Francisco Javier Ordóñez_, Hristijan Gjoreski, Danuel Roggen, Sami Mekki, Daniel Roggen
 November 2017, Proceedings of the ACM Conference on Embedded Networked Sensor Systems
 
 ## 2016
