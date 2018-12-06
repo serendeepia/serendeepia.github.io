@@ -2,7 +2,7 @@
 layout: career
 title: Big Data Architect/Engineer (contractor 40 €/h)
 open: false
-weight: 4
+weight: 30
 ---
 
 We are looking for a Big Data Architect/Engineer who can help us to create custom Big Data platforms for our clients. You will be in charge of deciding the best architecture that fulfils the needs of the clients and to efficiently deploy the platform. You will be part of a team of Data Scientist who will help you to define platform's requirements.

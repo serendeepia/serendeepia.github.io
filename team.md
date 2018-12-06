@@ -3,14 +3,6 @@ layout: mylayout
 title: Team
 navigation_weight: 2
 ---
-{% comment %}
-<div class="team">
-<img src="{{ site.url }}/assets/team.jpg"  class="team" />
-    <p>
-        <cite class="team">We are a multidisciplinar and experienced team with a strong background in Artificial Intelligence research, Artificial Cognitive Systems and Digital Business.</cite>
-    </p>
-</div>
-{% endcomment %}
 
 <div style="clear:both; padding:0.5em;"></div>
 

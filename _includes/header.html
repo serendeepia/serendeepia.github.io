@@ -22,21 +22,23 @@
           content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence."/>
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <h1><a href="/">
-            <img src="/assets/logo.svg" width="52px"/>
-            <span>{{ site.title | default: site.github.repository_name }}</span>
-        </a></h1>
-        <nav class="main-nav">
-            <ul class="nav nav-tabs">
-                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
-                {% for p in navigation_pages %}{% if p.navigation_weight %}
-                <li {% if p.url== page.url %} class="active" {% endif %}>
-                    <a href="{{ p.url }}">{{p.title }}</a>
-                </li>
-                {% endif %}{% endfor %}
-            </ul>
-        </nav>
-        <div style="clear: both"></div>
-    </header>
+<header>
+    <div class="wrapper">
+    <h1><a href="/">
+        <img src="/assets/logo.svg" width="48px"/>
+        <span>{{ site.title | default: site.github.repository_name }}</span>
+    </a></h1>
+    <nav class="main-nav">
+        <ul class="nav nav-tabs">
+            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+            {% for p in navigation_pages %}{% if p.navigation_weight %}
+            <li {% if p.url== page.url %} class="active" {% endif %}>
+                <a href="{{ p.url }}">{{p.title }}</a>
+            </li>
+            {% endif %}{% endfor %}
+        </ul>
+    </nav>
+    <div style="clear: both"></div>
+    </div>
+</header>
+<div class="wrapper-main">

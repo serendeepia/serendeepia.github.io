@@ -4,13 +4,45 @@ title: Careers
 navigation_weight: 6
 ---
 
-## Working at Serendeepia 
+<div class="slogan">
+    <p>
+        <cite>Be part of a team of world-class talent in Artificial Intelligence and enjoy every day learning and enhancing business through new innovations.</cite>
+    </p>
+</div>
 
-Our mission is to enhance business through new innovations in Artificial Intelligence with the state of the art research. You will be part of a team of world-class talent in Machine Learning, Deep Learning and Artificial Cognitive Systems. 
+<div class="careers-values">
 
-We are a remote team of talented enthusiastic and hard working innovators. You will have the chance to work with people all over the world from the place that best suits your needs and with flexible time.
+	<h2>Our Core Values</h2>
+	<p>We believe that a healthy culture is even more important than a smart culture. We live by our values to be a force for positive change in business.</p>
 
-Serendeepia is still a small company with a lot of challenges ahead. We aim to grow in a pace that allow us a good balance between personal and professional live. You will have a huge impact in the future of the company. 
+<div class="container-fluid-how">
+<div class="row"> 
+
+	<div class="how_col">
+	<h3>Decisive Visionaries</h3>
+	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	</div>
+	
+	<div class="how_col">
+	<h3>Decisive Visionaries</h3>
+	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	</div>
+
+	<div class="how_col">
+	<h3>Decisive Visionaries</h3>
+	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	</div>
+	
+	<div class="how_col">
+	<h3>Decisive Visionaries</h3>
+	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	</div>
+
+</div>
+<div style="clear: both;"></div>
+</div>	
+</div>
+
 
 ## Job opportunities
 
@@ -21,8 +53,8 @@ Serendeepia is still a small company with a lot of challenges ahead. We aim to g
 {% assign counter=counter | plus:1 %}
 <h3><a href="{{position.url}}">{{ position.title }}</a></h3>
 {% assign num_words = position.content | number_of_words %}
-{% if num_words > 100 %}
-{% capture summary %}{{ position.content | truncatewords: 100 }} 
+{% if num_words > 120 %}
+{% capture summary %}{{ position.content | truncatewords: 120 }} 
 <em><a href="{{ position.url }}">Read more</a></em>{% endcapture %}
 {{ summary | markdownify }} 
 {% else %}
