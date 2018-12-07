@@ -41,7 +41,7 @@ body {
 }
 
 div.slogan {
-  margin: 120px 0;
+  margin: 140px 0;
   position: relative;
 }
 
@@ -1239,7 +1239,6 @@ section p {
 }
 
 footer p {
-  font-size: 80%;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -1247,7 +1246,6 @@ footer p {
 }
 
 footer ul {
-  font-size: 80%;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -1289,17 +1287,32 @@ img.avatar {
 
 img.left {
   float: left;
-  margin: 3em 1.2em 0.8em 0;
+  margin: 0 1.2em 0.4em 0;
+  border-top-left-radius: 64px;
 }
 
 img.right {
   float: right;
-  margin: 3em 0 0.8em 1.2em;
+  margin: 0 0 0.4em 1.2em;
+  border-top-right-radius: 64px;
 }
 
 img.member {
   width: 260px;
   height: 260px;
+  border-bottom-right-radius: 64px;
+  border-bottom-left-radius: 64px;
+}
+
+div.member{
+  max-width: 700px;
+  margin: 8px auto 80px auto;
+  font-size: 80%;
+}
+
+.accent{
+  color: $color-primary;
+  font-weight: bold;
 }
 
 div.clear {
@@ -1350,7 +1363,7 @@ blockquote {
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: $color-black-light;
-  font-size: 14px;
+  font-size: 90%;
 }
 
 pre {
@@ -1401,7 +1414,7 @@ header {
 }
 
 footer {
-  font-size: 85%;
+  font-size: 80%;
   margin-top: 80px;
   padding: 60px 0 100px 0;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -1433,7 +1446,7 @@ header ul li + li + li {
 }
 
 header ul a strong {
-  font-size: 14px;
+  font-size: 85%;
   display: block;
   color: $color-black;
 }
@@ -1482,6 +1495,14 @@ div.logo_col {
 }
 
 div.container-fluid-how {
+  margin-top:64px;
+  max-width: 736px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.container-fluid-careers {
+  margin-top:16px;
   max-width: 736px;
   margin-right: auto;
   margin-left: auto;
@@ -1494,7 +1515,7 @@ div.how_col_fill, div.how_col {
   position: relative;
   padding: 18px;
   margin: 18px;
-  font-size: 14px;
+  font-size: 80%;
   line-height: 1.65em;
 }
 
@@ -1607,7 +1628,7 @@ div.content-block-img-right {
 }
 
 div.content-block-text-right {
-  font-size: 80%;
+  font-size: 85%;
   max-width: 500px;
   margin-left: -100px;
   margin-top: 40px;
@@ -1615,7 +1636,7 @@ div.content-block-text-right {
 }
 
 div.content-block-text-left {
-  font-size: 80%;
+  font-size: 85%;
   max-width: 500px;
   margin-right: -100px;
   margin-top: 40px;
@@ -1638,7 +1659,7 @@ div.careers-values div.row div.how_col {
   max-width: 330px;
   float: left;
   position: relative;
-  font-size: 14px;
+  font-size: 85%;
   line-height: 1.65em;
   padding: 0;
 }
@@ -1802,6 +1823,14 @@ div.careers-values div.row div.how_col h3 {
 
   div.content-block {
     display: block;
+  }
+
+  div.content-bottom {
+    height: 35%;
+  }
+
+  div.content-top {
+    height: 20%;
   }
 
   div.content-block-section {
@@ -1975,6 +2004,7 @@ div.careers-values div.row div.how_col h3 {
   img.member {
     width: 170px;
     height: 170px;
+    border-radius: 0;
   }
 
 }
