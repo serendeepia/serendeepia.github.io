@@ -3,7 +3,7 @@ layout: mylayout
 title: Home
 ---
 
-<!--<div class="img-head"><img src="/assets/head.svg"/></div>-->
+<div class="img-head"><img src="/assets/head.svg"/></div>
 
 <div class="slogan">
     <p>

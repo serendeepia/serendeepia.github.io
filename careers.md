@@ -3,39 +3,41 @@ layout: mylayout
 title: Careers
 navigation_weight: 6
 ---
-
-<div class="slogan">
-    <p>
-        <cite>Be part of a team of world-class talent in Artificial Intelligence and enjoy every day learning and enhancing business through new innovations.</cite>
-    </p>
+<div class="careers-image"></div>
+<div class="slogan careers-slogan">
+	<p>
+	    <cite>Be part of a team of world-class talent in Artificial Intelligence and enjoy every day learning and enhancing business through new innovations.</cite>
+	</p>
 </div>
 
 <div class="careers-values">
-
-	<h2>Our Core Values</h2>
-	<p>We believe that a healthy culture is even more important than a smart culture. We live by our values to be a force for positive change in business.</p>
-
+<h2>Our Core Values</h2>
 <div class="container-fluid-how">
 <div class="row"> 
 
 	<div class="how_col">
-	<h3>Decisive Visionaries</h3>
-	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	<h3>Continuous learning</h3>
+	<p>We believe in a continuous personal grow by increasing your knowledge and skills.</p>
 	</div>
 	
 	<div class="how_col">
-	<h3>Decisive Visionaries</h3>
-	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	<h3>Visionaries</h3>
+	<p>We go beyond of status quo to develop new solutions and to discover new problems.</p>
 	</div>
 
 	<div class="how_col">
-	<h3>Decisive Visionaries</h3>
-	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	<h3>World-class team</h3>
+	<p>We want to go far, that's why we must walk together, surrounded by the best ones.</p>
 	</div>
 	
 	<div class="how_col">
-	<h3>Decisive Visionaries</h3>
-	<p>We go beyond incremental thinking, push boundaries, and act quickl.</p>
+	<h3>Challenge yourself</h3>
+	<p>We get out of our comfort zone, we like to face new challenges. We are not afraid of failing.</p>
+	</div>
+	
+	<div class="how_col">
+	<h3>Personal life</h3>
+	<p>We aim to grow in a pace that allow us a good balance between personal and professional live.</p>
 	</div>
 
 </div>
@@ -51,15 +53,7 @@ navigation_weight: 6
 {% for position in careers %}
 {% if position.open == true %}
 {% assign counter=counter | plus:1 %}
-<h3><a href="{{position.url}}">{{ position.title }}</a></h3>
-{% assign num_words = position.content | number_of_words %}
-{% if num_words > 120 %}
-{% capture summary %}{{ position.content | truncatewords: 120 }} 
-<em><a href="{{ position.url }}">Read more</a></em>{% endcapture %}
-{{ summary | markdownify }} 
-{% else %}
-{{ position.content | markdownify }}
-{% endif %}
+<p><a href="{{position.url}}">{{ position.title }}</a></p>
 {% endif %}
 {% endfor %}
 
@@ -72,7 +66,7 @@ There are currently no open positions. However, we are always keen to meet energ
 <p>
 We are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV and project portfolio and tell us why you want to be part of Serendeepia:
 </p>
-<p style="text-align: center;">
+<p style="text-align: center;"><br>
 {% endif %}
 <span class="icon">
     <svg viewBox="0 4.801209 28.3499966 18.7475815">

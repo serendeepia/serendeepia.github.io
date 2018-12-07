@@ -1,11 +1,11 @@
 ---
 ---
 
-$font-stack:    "Open Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack: "Open Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $logo-font-stack: "Montserrat", "Open Sans", sans-serif;
-$color-primary:#5945a6;
-$color-primary-dark:#4a3a8b;
-$color-grey-light:#f8f8f8;
+$color-primary: #5945a6;
+$color-primary-dark: #4a3a8b;
+$color-grey-light: #f8f8f8;
 $color-grey: #e5e5e5;
 $color-grey-dark: #727272;
 $color-black-light: #393939;
@@ -45,26 +45,26 @@ div.slogan {
   position: relative;
 }
 
-.shadow{
-  border-radius: 12px;
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.shadow-light{
-  border-radius: 12px;
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
 div.slogan p {
   text-align: center;
 }
 
 div.slogan p cite {
   font-size: 1.6em;
+}
+
+.shadow {
+  border-radius: 12px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.shadow-light {
+  border-radius: 12px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 div.note {
@@ -153,6 +153,7 @@ header nav.main-nav {
   margin: 12px 0 0 4px;
   text-transform: uppercase;
   font-size: 14px;
+  display: inline;
 }
 
 header nav.main-nav ul {
@@ -176,16 +177,20 @@ header nav.main-nav ul li a {
   text-align: center;
   padding: 8px 0 2px 0;
   text-decoration: none;
-  border-bottom: 2px #fff solid;
+  border-bottom: 2px rgba(256, 256, 256, 0.12) solid;
 }
 
 header nav.main-nav ul li:not(.active) a:hover {
-  border-bottom: 2px $color-grey solid;
+  border-bottom: 2px $color-grey-dark solid;
 }
 
 header nav.main-nav ul li.active a {
-  border-bottom: 2px $color-grey-dark solid;
+  border-bottom: 2px $color-black-light solid;
   color: $color-black;
+}
+
+header .icon {
+  display: none;
 }
 
 section {
@@ -193,7 +198,7 @@ section {
   margin: 0 0 40px;
 }
 
-section ul{
+section ul {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -1211,22 +1216,22 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
 
-section h1, h2, h3, h4, h5, h6{
+section h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
-section.news h2{
-	margin-top: 1em;
-	margin-bottom: 0.2em;
+section.news h2 {
+  margin-top: 1em;
+  margin-bottom: 0.2em;
 }
 
-section p.date{
-	margin-bottom: 1.2em;
-	font-size: 0.9em;
+section p.date {
+  margin-bottom: 1.2em;
+  font-size: 0.9em;
 }
 
-section p{
+section p {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -1278,7 +1283,7 @@ p, ul, ol, table, pre, dl {
   width: auto;
 }
 
-img.avatar{
+img.avatar {
   border-radius: 50%;
 }
 
@@ -1297,9 +1302,21 @@ img.member {
   height: 260px;
 }
 
-div.clear{
-	width: 100%;
-	clear: both;
+div.clear {
+  width: 100%;
+  clear: both;
+}
+
+section.news div.top_image {
+  max-height: 400px;
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.news div.top_image img {
+  height: 100%;
+  width: 100%;
 }
 
 img.success_story_large {
@@ -1310,19 +1327,16 @@ img.success_story_large {
 }
 
 img.success_story_small {
-  float: left;
   object-fit: cover;
-  height: 200px;
-  width: 260px;
-  margin-right: 1em;
-  margin-bottom: 0.2em;
+  height: 320px;
+  width: 460px;
 }
 
 h1 {
   font-size: 28px;
 }
 
-h2, h3, h4, h5, h6  {
+h2, h3, h4, h5, h6 {
   color: $color-black-light;
 }
 
@@ -1495,13 +1509,32 @@ div.how_col h3, div.how_col_fill h3 {
   margin-top: 0.5em;
 }
 
+div.careers-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/adult-2398561_1280.jpg");
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  width: 100%;
+  height: 550px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+div.careers-slogan {
+  height: 200px;
+  color: $background-color;
+}
+
 div.img-head {
   z-index: -2;
   width: 700px;
   margin: 0 auto;
 }
 
-div.img-head img{
+div.img-head img {
   z-index: -2;
   opacity: 0.15;
   width: 1400px;
@@ -1511,12 +1544,94 @@ div.img-head img{
   margin-left: -1250px;
 }
 
-div.careers-values{
+div.content-wrapper {
+  padding: 40px 0;
+  position: relative;
+}
+
+div.content-dark {
+  background: $color-black;
+}
+
+div.content-grey {
+  background: $color-grey;
+}
+
+div.content-grey-light {
+  background: $color-grey-light;
+}
+
+div.content-light{
+  background: $background-color;
+}
+
+div.content-bottom {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+div.content-top {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+div.content-wrapper h3.inverse {
+  color: $background-color;
+}
+
+div.content-block {
+  display: flex;
+  position: relative;
+}
+
+div.content-block-section {
+  width: 50%;
+}
+
+div.content-row-reverse {
+  flex-direction: row-reverse;
+}
+
+div.content-block-img-left {
+  direction: ltr;
+}
+
+div.content-block-img-right {
+  direction: rtl;
+}
+
+div.content-block-text-right {
+  font-size: 80%;
+  max-width: 500px;
+  margin-left: -100px;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+div.content-block-text-left {
+  font-size: 80%;
+  max-width: 500px;
+  margin-right: -100px;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+div.content-block-section h3 {
+  margin: 40px 40px 10px 40px;
+}
+
+div.careers-values {
   background: $color-grey-light;
   padding: 2px 0 2em 0;
 }
 
-div.careers-values div.row div {
+div.careers-values div.row div.how_col {
   text-align: left;
   margin: 18px 18px 2px 18px;
   width: auto;
@@ -1528,12 +1643,18 @@ div.careers-values div.row div {
   padding: 0;
 }
 
-div.careers-values div.row div h3 {
+div.careers-values div.row div.how_col h3 {
   text-align: left;
   margin-top: 0.5em;
 }
 
 @media screen and (max-width: 880px) {
+
+  header, footer, form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   div.container-fluid-how {
     max-width: 756px;
     margin-right: auto;
@@ -1550,9 +1671,23 @@ div.careers-values div.row div h3 {
   div.how_col h3, div.how_col_fill h3 {
     text-align: left;
   }
+
+  div.careers-values div.row div.how_col {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  div.careers-values div.row div.how_col h3 {
+    margin-bottom: 8px;
+  }
 }
 
 @media screen and (max-width: 840px) {
+
+  div.wrapper-main {
+    padding-top: 116px;
+  }
 
   header nav.main-nav {
     clear: left;
@@ -1592,14 +1727,22 @@ div.careers-values div.row div h3 {
 
 @media screen and (max-width: 780px) {
 
+  footer {
+    padding: 50px 0 80px 0;
+  }
+
+  footer p {
+    margin-bottom: 32px;
+  }
+
   footer ul li {
     display: block;
     padding: 0;
     border: none;
   }
 
-  div.slogan{
-    margin: 32px 0px;
+  div.slogan {
+    margin: 64px 0px;
     border-radius: 0px;
   }
 
@@ -1614,12 +1757,6 @@ div.careers-values div.row div h3 {
 
   body {
     word-wrap: break-word;
-    padding: 15px 0;
-  }
-
-  section, footer {
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 
   section {
@@ -1654,30 +1791,97 @@ div.careers-values div.row div h3 {
     text-align: left;
   }
 
+  div.slogan p cite {
+    font-size: 1.4em;
+  }
+
   img.member {
     width: 220px;
     height: 220px;
+  }
+
+  div.content-block {
+    display: block;
+  }
+
+  div.content-block-section {
+    width: 100%;
+  }
+
+  div.content-block-text-right {
+    max-width: 100%;
+    margin: 16px 16px 0px 16px;
+    padding: 16px 8px;
+  }
+
+  div.content-block-text-left {
+    max-width: 100%;
+    margin: 16px 8px 0px 8px;
+    padding: 16px 8px;
+  }
+
+  div.content-block-section h3 {
+    margin: 20px 20px 4px 20px;
+  }
+
+  div.content-wrapper h3.inverse {
+     color: $foreground-color;
+  }
+
+  div.content-block img{
+    width: 100%;
+    height: auto;
   }
 }
 
 @media print, screen and (max-width: 500px) {
 
-  footer {
-    margin-top: 20px;
+  div.wrapper-main {
+    padding-top: 70px;
   }
 
-  section, footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  header a.icon {
+    float: right;
+    display: block;
+    font-size: 1.6em;
+    padding: 4px;
+    margin-top: 8px;
+    text-decoration: none;
+
+  }
+
+  header a.icon #menu-bars {
+    display: block;
+  }
+
+  header a.icon #menu-close {
+    display: none;
+  }
+
+  header a.icon.responsive #menu-bars {
+    display: none;
+  }
+
+  header a.icon.responsive #menu-close {
+    display: block;
+  }
+
+  header nav.main-nav {
+    display: none;
+  }
+
+  header nav.main-nav.responsive {
+    position: relative;
+    display: block;
+  }
+
+  footer {
+    padding: 40px 0 60px 0;
   }
 
   section p, section h2, section h3, section h4, header, footer, form {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  body {
-    padding: 10px 0;
   }
 
   div.how_col, div.how_col_fill {
@@ -1702,12 +1906,8 @@ div.careers-values div.row div h3 {
     height: 200px;
   }
 
-  img.success_story_small {
-    object-fit: cover;
-    height: auto;
-    max-height: 200px;
-    width: 100%;
-    margin-bottom: 0.2em;
+  div.slogan p cite {
+    font-size: 1.3em;
   }
 }
 
@@ -1765,7 +1965,7 @@ div.careers-values div.row div h3 {
   }
 
   div.slogan p cite {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   div.slogan p cite.team {
@@ -1777,13 +1977,6 @@ div.careers-values div.row div h3 {
     height: 170px;
   }
 
-  img.success_story_small {
-    object-fit: cover;
-    height: auto;
-    max-height: 170px;
-    width: 100%;
-    margin-bottom: 0.2em;
-  }
 }
 
 @media screen and (max-width: 340px) {
@@ -1793,11 +1986,4 @@ div.careers-values div.row div h3 {
     height: auto;
   }
 
-  img.success_story_small {
-    object-fit: cover;
-    height: auto;
-    max-height: 160px;
-    width: 100%;
-    margin-bottom: 0.2em;
-  }
 }
