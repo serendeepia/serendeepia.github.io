@@ -1,0 +1,115 @@
+---
+layout: mylayout
+title: Solutions
+navigation_weight: 5
+---
+
+<h2>Professional Services</h2>
+
+<div class="content-wrapper">
+<div class="content-dark content-bottom"></div>
+<div class="wrapper">
+<div class="content-block">
+	<div class="content-block-section">
+		<img src="/assets/artificial-intelligence-3382507_640.jpg"/>
+	</div>
+	<div class="content-block-section">
+		<h3>Strategy</h3>
+		<div class="content-block-text-right content-grey-light">
+		<p>
+		We help you to identify the key growth areas of the digital ecosystem in your business and to understand how Artificial Intelligence can maximize the value that your company provides to customers. Our main aim is to provide you with a pragmatic understanding of what is actually achievable using Deep Learning techniques, focusing on what approaches are the most appropriate for your current and future challenges. We work with you to create a custom roadmap to integrate AI into your business, step by step, while managing the impact of such a disruptive change.
+		</p>
+		</div>
+	</div>
+</div></div></div>
+
+
+<div class="content-wrapper">
+<div class="content-dark content-top"></div>
+<div class="wrapper">
+<div class="content-block content-row-reverse">
+	<div class="content-block-section">
+		<img src="/assets/mining-2648004_640.jpg"/>
+	</div>
+	<div class="content-block-section">
+		<h3 class="inverse">Minimum Viable Products</h3>
+		<div class="content-block-text-left content-grey-light">
+		<p>
+		We allow business units to deploy Artificial Intelligence capabilities without the difficulty and delay of trying to build an internal team.
+		</p>
+        <ul>
+        <li><b>Images & Artificial Vision</b>: Object classification, object recognition, semantic hashing, style matching, visual search</li>
+        <li><b>Text Analytics & Natural Language Processing</b>: Classification, translation, summarization, text generation, text mining, semantic search.</li>
+        <li><b>Time series & Forecasting</b>: Event prediction, anomaly detection, pattern recognition, clustering.</li>
+        <li><b>User behaviour & Activity Recognition</b>: Recommendation engines, log analysis, click/sales prediction, segmentation.</li>
+        </ul>
+		</div>
+	</div>
+</div></div></div>
+
+
+<div class="content-wrapper">
+<div class="content-grey-light content-bottom"></div>
+<div class="wrapper">
+<div class="content-block">
+	<div class="content-block-section">
+		<img src="/assets/eye-1686932_640.jpg"/>
+	</div>
+	<div class="content-block-section ">
+		<h3>Education & Training</h3>
+		<div class="content-block-text-right content-light ">
+		<p>
+		We provide ad-hoc training programs for your company from introduction to Big Data, Machine Learning, Deep Learning, Cognitive Services and Artificial Intelligence to Advanced Analytics and custom Deep Learning models.
+		</p>
+		</div>
+	</div>
+</div></div></div>
+
+ 
+{% assign success_stories = site.success_stories | size %}
+{% if success_stories > 0 %}
+
+<h2><a href="/success_stories.html">Success stories</a></h2>
+
+{% assign styles_pos = "light|grey-light|dark,dark|grey-light|light,light|light|grey-light,grey-light|light|light,light|grey-light|light" | split: "," %}
+{% assign counter = 0 %}
+{% for story in site.success_stories reversed limit:5 %}
+{% capture content_color_pos %}{% cycle 'bottom', 'top', 'top' %}{% endcapture %}
+{% capture content_color %}{% cycle 'dark', 'dark', 'light', 'grey-light', 'grey-light' %}{% endcapture %}
+{% capture title_class %}{% cycle '', 'inverse' %}{% endcapture %}
+{% capture content_color_text %}{% cycle 'grey-light', 'grey-light', 'light', 'light' %}{% endcapture %}
+{% capture content_text_pos %}{% cycle 'right', 'left' %}{% endcapture %}
+{% capture content_reverse %}{% cycle '', 'content-row-reverse' %}{% endcapture %}
+
+{% if content_color_pos == 'top' and content_color == 'dark' %}
+{% assign title_class = 'inverse' %}
+{% else %}
+{% assign title_class = '' %}
+{% endif %}
+
+<div class="content-wrapper">
+<div class="content-{{ content_color }} content-{{ content_color_pos }}"></div>
+<div class="wrapper">
+<div class="content-block {{ content_reverse }}">
+	<div class="content-block-section">
+		<img class="success_story_small" src="/assets/{{story.image}}"/>
+	</div>
+	<div class="content-block-section ">
+		<h3 class="{{ title_class }}">{{ story.title }}</h3>
+		<div class="content-block-text-{{ content_text_pos }} content-{{ content_color_text }} ">
+			{% assign num_words = story.content | number_of_words %}
+			{% if num_words > 80 %}
+
+			{% capture summary %}{{ story.content | truncatewords: 80 }}
+			<em><a href="{{ story.url }}">Continue reading</a></em>{% endcapture %}
+			{{ summary | markdownify }}
+			{% else %}
+			{{ story.content | markdownify }}
+			{% endif %}
+		</div>
+	</div>
+</div></div></div>
+{% assign counter = counter | plus: 1 %}
+{% endfor %}
+
+{% endif %}

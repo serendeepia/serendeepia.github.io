@@ -6,13 +6,9 @@
     <link rel="icon" href="/favicon.ico">
     <title>{{ site.title | default: site.github.repository_name }} - {{ page.title }}</title>
 
-    <link rel="stylesheet"
-          href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!--<link rel="stylesheet" href="{{ '/assets/css/theme.css?v=' | append: site.github.build_revision | relative_url }}">-->
+    <link rel="stylesheet"  href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <meta name="description"
           content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence.">
@@ -22,21 +18,43 @@
           content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capability to use Artificial Intelligence."/>
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <h1><a href="/">
-            <img src="/assets/logo.svg" width="52px"/>
-            <span>{{ site.title | default: site.github.repository_name }}</span>
-        </a></h1>
-        <nav class="main-nav">
-            <ul class="nav nav-tabs">
-                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
-                {% for p in navigation_pages %}{% if p.navigation_weight %}
-                <li {% if p.url== page.url %} class="active" {% endif %}>
-                    <a href="{{ p.url }}">{{p.title }}</a>
-                </li>
-                {% endif %}{% endfor %}
-            </ul>
-        </nav>
-        <div style="clear: both"></div>
-    </header>
+<header>
+    <div class="wrapper">
+    <h1><a href="/">
+        <img src="/assets/logo.svg" width="48px"/>
+        <span>{{ site.title | default: site.github.repository_name }}</span>
+    </a></h1>
+    <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="navBarToggle()">
+        <i class="fa fa-times" id="menu-close"></i>
+        <i class="fa fa-bars" id="menu-bars"></i>
+    </a>
+    <nav class="main-nav" id="main-nav">
+        <ul class="nav nav-tabs">
+            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+            {% for p in navigation_pages %}{% if p.navigation_weight %}
+            <li {% if p.url== page.url %} class="active" {% endif %}>
+                <a href="{{ p.url }}">{{p.title }}</a>
+            </li>
+            {% endif %}{% endfor %}
+        </ul>
+    </nav>
+    <div style="clear: both"></div>
+    </div>
+</header>
+<script>
+    function navBarToggle() {
+        var x = document.getElementById("main-nav");
+        if (x.className === "main-nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "main-nav";
+        }
+        var y = document.getElementById("menu-icon");
+        if (y.className === "icon") {
+            y.className += " responsive";
+        } else {
+            y.className = "icon";
+        }
+    }
+</script>
+<div class="wrapper-main">

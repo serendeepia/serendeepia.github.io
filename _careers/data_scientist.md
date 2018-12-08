@@ -1,8 +1,8 @@
 ---
 layout: career
 title: Data Scientist (contractor 40 €/h)
-open: true
-weight: 2
+open: false
+weight: 20
 ---
 
 We are looking for a Data Scientist who can work in different projects. A person who is able to work in the full cycle of a Data Science project with complete autonomy, from data cleansing to the executive report of main results/insights. You will help in projects in different domains and industries, directly interacting with the clients to identify their needs.
