@@ -1208,6 +1208,11 @@ select[multiple].input-lg {
   }
 }
 
+ol, table, pre, dl {
+  margin: 0 0 12px;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   color: $color-black;
   max-width: 700px;
@@ -1253,6 +1258,7 @@ footer ul {
   overflow: hidden;
   border: none;
   text-align: center;
+  padding: 0;
 }
 
 footer ul li {
@@ -1268,10 +1274,6 @@ footer ul li:first-child {
 
 footer ul li:last-child {
   padding-right: 0;
-}
-
-p, ul, ol, table, pre, dl {
-  margin: 0 0 12px;
 }
 
 .person-mask {
@@ -1304,13 +1306,13 @@ img.member {
   border-bottom-left-radius: 64px;
 }
 
-div.member{
+div.member {
   max-width: 700px;
   margin: 8px auto 80px auto;
   font-size: 80%;
 }
 
-.accent{
+.accent {
   color: $color-primary;
   font-weight: bold;
 }
@@ -1440,6 +1442,10 @@ strong {
   font-weight: 700;
 }
 
+header h1{
+  margin-bottom: 4px;
+}
+
 header ul li + li + li {
   border-right: none;
   width: 89px;
@@ -1495,14 +1501,14 @@ div.logo_col {
 }
 
 div.container-fluid-how {
-  margin-top:64px;
+  margin-top: 64px;
   max-width: 736px;
   margin-right: auto;
   margin-left: auto;
 }
 
 div.container-fluid-careers {
-  margin-top:16px;
+  margin-top: 16px;
   max-width: 736px;
   margin-right: auto;
   margin-left: auto;
@@ -1582,7 +1588,7 @@ div.content-grey-light {
   background: $color-grey-light;
 }
 
-div.content-light{
+div.content-light {
   background: $background-color;
 }
 
@@ -1814,6 +1820,25 @@ div.our-offer {
   }
 }
 
+
+
+@media screen and (max-width: 700px) {
+
+  div.member img.left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
+
+  div.member img.right {
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   div.slogan p {
@@ -1862,10 +1887,10 @@ div.our-offer {
   }
 
   div.content-wrapper h3.inverse {
-     color: $foreground-color;
+    color: $foreground-color;
   }
 
-  div.content-block img{
+  div.content-block img {
     width: 100%;
     height: auto;
   }
@@ -1884,7 +1909,6 @@ div.our-offer {
     padding: 4px;
     margin-top: 8px;
     text-decoration: none;
-
   }
 
   header a.icon #menu-bars {
@@ -1930,12 +1954,16 @@ div.our-offer {
     padding: 10px 10px;
   }
 
+  header {
+    padding: 8px 8px 4px 8px;
+  }
+
   header nav.main-nav ul li {
     margin: 0 6px;
   }
 
   header nav.main-nav ul li a {
-    padding: 6px 0 2px 0;
+    padding: 8px 0 8px 0;
   }
 
   img.member {
@@ -1946,6 +1974,7 @@ div.our-offer {
   div.slogan p cite {
     font-size: 1.3em;
   }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -1998,7 +2027,7 @@ div.our-offer {
 
   header h1 a span {
     float: left;
-    margin: 12px 8px 12px 8px;
+    margin: 12px 8px 0 8px;
   }
 
   div.slogan p cite {
@@ -2012,7 +2041,6 @@ div.our-offer {
   img.member {
     width: 170px;
     height: 170px;
-    border-radius: 0;
   }
 
 }
@@ -2022,6 +2050,22 @@ div.our-offer {
   img.member {
     width: auto;
     height: auto;
+  }
+
+  div.member h2{
+    margin-top: 16px;
+  }
+
+  div.member img.left {
+    float: none;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  div.member img.right {
+    float: none;
+    margin: 0;
+    border-radius: 0;
   }
 
 }
