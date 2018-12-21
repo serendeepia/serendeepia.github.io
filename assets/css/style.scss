@@ -53,6 +53,14 @@ div.slogan p cite {
   font-size: 1.6em;
 }
 
+div.whitten p {
+  background: rgba(white,0.2);
+}
+
+div.whitten p cite{
+  background: rgba(white,0.6);
+}
+
 div#particles-js {
   width: 100%;
   height: 500px;
@@ -1906,6 +1914,10 @@ div.our-offer {
 
 @media print, screen and (max-width: 500px) {
 
+  div.careers-image{
+    max-height: 400px;
+  }
+
   div.wrapper-main {
     padding-top: 70px;
   }
@@ -1949,8 +1961,8 @@ div.our-offer {
   }
 
   section p, section h2, section h3, section h4, header, footer, form {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   div.how_col, div.how_col_fill {
