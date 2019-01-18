@@ -54,11 +54,11 @@ div.slogan p cite {
 }
 
 div.whitten p {
-  background: rgba(white,0.2);
+  background: rgba(white, 0.2);
 }
 
-div.whitten p cite{
-  background: rgba(white,0.6);
+div.whitten p cite {
+  background: rgba(white, 0.6);
 }
 
 div#particles-js {
@@ -1267,29 +1267,37 @@ footer p {
 }
 
 footer ul {
-  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   list-style-type: none;
   overflow: hidden;
   border: none;
-  text-align: center;
+  text-align: left;
   padding: 0;
 }
 
+footer div.wrapper {
+  display: block;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer div.footer_links {
+  float: left;
+}
+
+footer div.footer_social {
+  float: right;
+}
+
+footer div.footer_social svg{
+  margin-right: 16px;
+}
+
 footer ul li {
-  display: inline-block;
-  padding: 0 10px;
-  border-left: 1px #ccc solid;
-}
-
-footer ul li:first-child {
-  padding-left: 0;
-  border-left: none;
-}
-
-footer ul li:last-child {
-  padding-right: 0;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .person-mask {
@@ -1458,7 +1466,7 @@ strong {
   font-weight: 700;
 }
 
-header h1{
+header h1 {
   margin-bottom: 4px;
 }
 
@@ -1786,10 +1794,8 @@ div.our-offer {
     margin-bottom: 32px;
   }
 
-  footer ul li {
-    display: block;
-    padding: 0;
-    border: none;
+  footer div.footer_social {
+    padding-right: 32px;
   }
 
   div.slogan {
@@ -1837,7 +1843,6 @@ div.our-offer {
 }
 
 
-
 @media screen and (max-width: 700px) {
 
   div.member img.left {
@@ -1848,7 +1853,7 @@ div.our-offer {
   }
 
   div.member img.right {
-    border-top-right-radius:0;
+    border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px;
@@ -1856,6 +1861,28 @@ div.our-offer {
 }
 
 @media screen and (max-width: 600px) {
+
+  footer div.footer_social{
+    padding-right: 0;
+    float: none;
+  }
+
+  footer div.footer_social ul{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer div.footer_links{
+    float: none;
+    width: 100%;
+  }
+
+  footer div.footer_links ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   div.slogan p {
     text-align: left;
@@ -1914,7 +1941,7 @@ div.our-offer {
 
 @media print, screen and (max-width: 500px) {
 
-  div.careers-image{
+  div.careers-image {
     max-height: 400px;
   }
 
@@ -2072,7 +2099,7 @@ div.our-offer {
     height: auto;
   }
 
-  div.member h2{
+  div.member h2 {
     margin-top: 16px;
   }
 

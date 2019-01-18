@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Senior Cloud Solutions Architect
-open: true
+open: false
 weight: 2
 ---
 
