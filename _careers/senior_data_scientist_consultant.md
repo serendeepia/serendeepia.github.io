@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Senior Data Scientist Consultant
-open: true
+open: false
 weight: 0
 ---
 
