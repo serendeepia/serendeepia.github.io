@@ -1715,6 +1715,17 @@ div.our-offer {
     padding-right: 15px;
   }
 
+  header nav.main-nav {
+    clear: left;
+    float: left;
+    margin: 0;
+  }
+
+  nav.main-nav ul li.right,
+  nav.main-nav ul li {
+    float: none;
+  }
+
   div.container-fluid-how {
     max-width: 756px;
     margin-right: auto;
@@ -1747,17 +1758,6 @@ div.our-offer {
 
   div.wrapper-main {
     padding-top: 116px;
-  }
-
-  header nav.main-nav {
-    clear: left;
-    float: left;
-    margin: 0;
-  }
-
-  nav.main-nav ul li.right,
-  nav.main-nav ul li {
-    float: none;
   }
 
   div.container-fluid {
@@ -1950,6 +1950,58 @@ div.our-offer {
     padding-top: 70px;
   }
 
+  footer {
+    padding: 40px 0 60px 0;
+  }
+
+  section p, section h2, section h3, section h4, header, footer, form {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  div.how_col, div.how_col_fill {
+    border-radius: 0;
+    padding: 2px 0 12px 0;
+  }
+
+  div.logo_col {
+    padding: 10px 10px;
+  }
+
+  header {
+    padding: 8px 8px 4px 8px;
+  }
+
+  img.member {
+    width: 200px;
+    height: 200px;
+  }
+
+  div.slogan p cite {
+    font-size: 1.3em;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+
+  header nav.main-nav {
+    display: none;
+  }
+
+  header nav.main-nav.responsive {
+    position: relative;
+    display: block;
+  }
+
+  header nav.main-nav ul li {
+    margin: 0 6px;
+  }
+
+  header nav.main-nav ul li a {
+    padding: 8px 0 8px 0;
+  }
+
   header a.icon {
     float: right;
     display: block;
@@ -1974,58 +2026,6 @@ div.our-offer {
   header a.icon.responsive #menu-close {
     display: block;
   }
-
-  header nav.main-nav {
-    display: none;
-  }
-
-  header nav.main-nav.responsive {
-    position: relative;
-    display: block;
-  }
-
-  footer {
-    padding: 40px 0 60px 0;
-  }
-
-  section p, section h2, section h3, section h4, header, footer, form {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  div.how_col, div.how_col_fill {
-    border-radius: 0;
-    padding: 2px 0 12px 0;
-  }
-
-  div.logo_col {
-    padding: 10px 10px;
-  }
-
-  header {
-    padding: 8px 8px 4px 8px;
-  }
-
-  header nav.main-nav ul li {
-    margin: 0 6px;
-  }
-
-  header nav.main-nav ul li a {
-    padding: 8px 0 8px 0;
-  }
-
-  img.member {
-    width: 200px;
-    height: 200px;
-  }
-
-  div.slogan p cite {
-    font-size: 1.3em;
-  }
-
-}
-
-@media screen and (max-width: 450px) {
 
   header nav.main-nav ul li {
     margin: 0 0;
