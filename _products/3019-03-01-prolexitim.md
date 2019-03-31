@@ -2,6 +2,7 @@
 layout: product
 title: Prolexitim
 image: products/prolexitim.jpg
+landing-form: Notify me when the app is released
 ---
 
-bla bla bla
+Long product description
