@@ -6,6 +6,8 @@ collections:
     output: true
   success_stories:
     output: true
+  products:
+    output: true
 exclude:
   - 'serendeepia.github.io.iml'
   - 'Gemfile'
