@@ -1,0 +1,13 @@
+---
+layout: product
+title: Image Engagement Score
+image: products/image_engagement_score.jpg
+landing-form: Join the alpha preview list
+landing-form-button: Join now
+date: 2019-01-01
+description: Predict the engagement of your images in your users with Deep Learning models.
+---
+
+Our image scoring technologies are able to predict which pictures will have more engagement among people. Our Deep Learning models assess images based on what people like in social networks.
+
+If you need help to decide which one of your images will have a bigger positive impact for your content, we have created the right tool for you.

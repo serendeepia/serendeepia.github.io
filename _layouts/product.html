@@ -2,15 +2,20 @@
 
 <section class="news">
 
-    {% if page.image %}
-    <div class="product-image"><img src="/assets/{{page.image}}"/></div>
-    {% else %}
-    <div class="product-image background-primary"></div>
-    {% endif %}
+    {% if page.image %}<div class="product-image"><img src="/assets/{{page.image}}"/></div>
+    {% else %} <div class="product-image background-primary"></div>{% endif %}
 
-    <div class="slogan product-content">
+    <div class="product-content">
         <h2>{{ page.title }}</h2>
-        {{ content }}
+        <div class="product-content-block">
+            <div class="product-content-image">
+                <a href="/assets/{{page.image}}" target="_blank">
+                    <img src="/assets/{{page.image}}"/>
+                </a>
+            </div>
+            <div class="product-content-text">{{ content }}</div>
+            <div style="clear: both;"></div>
+        </div>
 
         {% if page.landing-form %}
         <div id="product-form-container">
