@@ -8,8 +8,11 @@ collections:
     output: true
   products:
     output: true
+  slides:
+    output: true
 exclude:
-  - 'serendeepia.github.io.iml'
   - 'Gemfile'
   - 'Gemfile.lock'
   - '.idea'
+  - '.gitignore'
+  - 'CODEOWNERS'
