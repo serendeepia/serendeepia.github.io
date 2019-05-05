@@ -8,6 +8,8 @@ collections:
     output: true
   products:
     output: true
+  slides:
+    output: true
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
