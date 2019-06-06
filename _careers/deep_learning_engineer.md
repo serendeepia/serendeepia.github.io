@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Deep Learning Engineer (contractor 40 €/h)
-open: true
+open: false
 weight: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Data Scientist (25.000 €)
-open: true
+open: false
 weight: 20
 ---
 
