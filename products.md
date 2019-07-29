@@ -18,8 +18,8 @@ navigation_weight: 5
 		<h3><a href="{{ product.url }}">{{ product.title }}</a></h3>
 		<div class="content-block-text-{{ content_text_pos }} content-light ">
 			{% assign num_words = product.content | number_of_words %}
-			{% if num_words > 100 %}
-				{% capture summary %}{{ product.content | truncatewords: 100 }}
+			{% if num_words > 75 %}
+				{% capture summary %}{{ product.content | truncatewords: 75 }}
 				<em><a href="{{ product.url }}">Discover</a></em>{% endcapture %}
 				{{ summary | markdownify }}
 			{% else %}
