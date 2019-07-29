@@ -5,9 +5,9 @@ open: true
 weight: 101
 ---
 
-We are looking for Software Engineers enthusiasts that want to keep learning and working in new challenges creating minimum viable products to test different ideas or help with cutting edge projects.
+We are looking for Software Engineering enthusiasts that want to keep learning and working in new challenges creating minimum viable products to test different ideas or collaborating in cutting edge AI projects.
 
-The main goal of the position is to offer enthusiasts the opportunity to keep improving their skills in order to find a full time position as Front-End Developer, Back-End Developer, Full-Stack Developer, Mobile Developer or Big Data Engineer. You will help with the development of tools for company that will be used daily.
+The main goal of the position is to offer enthusiasts the opportunity to keep improving their skills in order to find a full time position as Front-End Developer, Back-End Developer, Full-Stack Developer, Mobile Developer or Big Data Engineer. You will help with the development of tools for the company that will be used daily.
 
 Desirable skills and qualifications
 * Excellent Software Engineer skills
