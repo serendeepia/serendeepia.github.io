@@ -1,10 +1,23 @@
 ---
 layout: product
 title: Amaritas
-image: products/selfie_improver.jpg
-landing-form: Notify me when the mobile app is released
-date: 2019-02-01
-description: Improve and modify your face in pictures. We use Deep Learning models to modify your face and let you improve your smile, modify your hair, remove your glasses or even make you look younger
+image: products/amaritas.jpg
+landing-form: I want a demo of Amaritas
+date: 2019-07-29
+description: Language is a gift to humanity, but sometimes it can become a dangerous venom. Amaritas is an Artificial Intelligence service that automatically detects toxic speech in Spanish.  
 ---
 
-Our selfie improver is a photo-editing app that helps to improve and modify your face in the pictures. We use Deep Learning models to modify your face and let you improve your smile, modify your hair, remove your glasses or even make you look younger.
+Language is a gift to humanity, but sometimes it can become a dangerous venom. Amaritas is an Artificial Intelligence service that automatically detects toxic speech in Spanish. 
+
+Amaritas (from the Latin root *amarus*) means bitterness, harshness. Certainly, the way we talk can take sometimes this bad taste and that can have remarkable, and usually unwanted, consequences in communication.
+ 
+Amaritas is a cloud service provided by Serendeepia endowed with the latest advancements in AI. Our state-of-the-art deep neural networks perform complex morphosyntactic and semantic analysis of the Spanish language.
+
+Toxic language detection is a very challenging tasks for machines as natural language is full of subtleties and nuances, which requires an enormous knowledge about affective context, communication style, use of slang expressions, etc. Traditional Natural Language Processing (NLP) techniques usually don’t stand a chance in this fuzzy semantic domain.
+ 
+Until recent years only humans were able to correctly detect and interpret toxic language. With Amaritas, this task can now be effectively automated for Spanish language. Amaritas is well-trained to read between the lines, detecting: 
+- Threats, Violence, Hostility, Bullying.
+- Insults, Resentment, Antipathy, Sourness.
+- Obscenity, Sexually Degrading, Nastiness.
+- Hatred, Rancour, Identity Hate.
+- Male Chauvinism.
