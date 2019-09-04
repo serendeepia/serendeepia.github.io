@@ -50,26 +50,27 @@ navigation_weight: 7
 
 <h2>Job opportunities</h2>
 
-{% assign counter = 0 %}
-{% assign careers = site.careers | sort:"weight" %}
-{% for position in careers %}
-{% if position.open == true %}
-{% assign counter=counter | plus:1 %}
-<p><a href="{{position.url}}">{{ position.title }}</a></p>
-{% endif %}
-{% endfor %}
+{%- assign counter = 0 -%}
+{%- assign careers = site.careers | sort:"weight" -%}
+{%- for position in careers -%}
+	{%- if position.open == true -%}
+		{%- assign counter=counter | plus:1 -%}
+		<p><a href="{{position.url}}">{{ position.title }}</a></p>
+	{%- endif -%}
+{%- endfor -%}
 
 
-{% if counter == 0 %}
+{%- if counter == 0 -%}
 <p>There are currently no open positions. However, we are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV and project portfolio and tell us why you want to be part of Serendeepia:</p>
 <p style="text-align: center; margin-top: 40px;">
-{% else %}
+{%- else -%}
 <h3>Other positions</h3>
 <p>
 We are always keen to meet energetic and talented professionals who would like to join our team. Please send your CV and project portfolio and tell us why you want to be part of Serendeepia:
 </p>
 <p style="text-align: center;"><br>
-{% endif %}
+{%- endif -%}
+
 <span class="icon">
     <svg viewBox="0 4.801209 28.3499966 18.7475815">
     <path fill="#4a3a8b"

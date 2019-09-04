@@ -13,13 +13,22 @@
     <meta name="description"
           content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capabilities to use Artificial Intelligence.">
 
-    {% if page.title %}<meta property="og:title" content="{{ site.title | default: site.github.repository_name }} - {{ page.title }}"/>
-    {% else %}<meta property="og:title" content="{{ site.title | default: site.github.repository_name }}"/>{% endif %}
-    {% if page.image %}<meta property="og:image" content="/assets/{{ page.image }}"/>
-    {% else %}<meta property="og:image" content="http://serendeepia.com/assets/logo_300.png"/>{% endif %}
-    {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>
-    {% else %}<meta property="og:description"
-          content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capabilities to use Artificial Intelligence."/>{% endif %}
+    {%- if page.title -%}
+    <meta property="og:title" content="{{ site.title | default: site.github.repository_name }} - {{ page.title }}"/>
+    {%- else -%}
+    <meta property="og:title" content="{{ site.title | default: site.github.repository_name }}"/>
+    {%- endif -%}
+    {%- if page.image -%}
+    <meta property="og:image" content="/assets/{{ page.image }}"/>
+    {%- else -%}
+    <meta property="og:image" content="http://serendeepia.com/assets/logo_300.png"/>
+    {%- endif -%}
+    {%- if page.description -%}
+    <meta property="og:description" content="{{ page.description }}"/>
+    {%- else -%}
+    <meta property="og:description"
+          content="Serendeepia is a group of experts in Machine Learning and Deep Learning. We build custom solutions based on state of the art research and we help our customers to develop their own capabilities to use Artificial Intelligence."/>
+    {%- endif -%}
 
 </head>
 <body>
@@ -35,12 +44,24 @@
     </a>
     <nav class="main-nav" id="main-nav">
         <ul class="nav nav-tabs">
-            {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
-            {% for p in navigation_pages %}{% if p.navigation_weight %}
-            <li {% if p.url== page.url %} class="active" {% endif %}>
-                <a href="{{ p.url }}">{{p.title }}</a>
-            </li>
-            {% endif %}{% endfor %}
+            {%- assign navigation_pages = site.html_pages | sort: 'navigation_weight' -%}
+            {%- for p in navigation_pages -%}{%- if p.navigation_weight -%}
+                <li {% if p.url == page.url %} class="active" {% endif %}>
+                    <a href="{{ p.url }}">{{p.title }}</a>
+                    {%- if p.title == 'Products' -%}
+                        <ul class="nav-submenu">
+                        {%- for product in site.products reversed -%}
+                            <li><a href="{{ product.url }}">{{ product.title }}</a></li>
+                        {%- endfor -%}
+                        </ul>
+                    {%- elsif p.title == 'Solutions' -%}
+                        <ul class="nav-submenu">
+                            <li><a href="{{ p.url }}#professional_services">Professional Services</a></li>
+                            <li><a href="{{ p.url }}#success_stories">Success Stories</a></li>
+                        </ul>
+                    {%- endif -%}
+                </li>
+            {%- endif -%}{%- endfor -%}
         </ul>
     </nav>
     <div style="clear: both"></div>

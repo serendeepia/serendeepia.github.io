@@ -1,9 +1,9 @@
-{% include header.html %}
+{%- include header.html -%}
 <section class="news">
 
-    {% if page.image %}
+    {%- if page.image -%}
     <div class="top_image"><img src="/assets/{{page.image}}"/></div>
-    {% endif %}
+    {%- endif -%}
 
     <h2>{{ page.title }}</h2>
     <p class="date"><em>{{page.date | date_to_string }}</em></p>
@@ -11,4 +11,4 @@
     {{ content }}
 
 </section>
-{% include footer.html %}
+{%- include footer.html -%}

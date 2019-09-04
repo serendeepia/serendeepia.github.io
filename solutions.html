@@ -4,7 +4,7 @@ title: Solutions
 navigation_weight: 6
 ---
 
-<h2>Professional Services</h2>
+<h2 id="professional_services">Professional Services</h2>
 
 <div class="content-wrapper">
 <div class="content-dark content-bottom"></div>
@@ -66,26 +66,26 @@ navigation_weight: 6
 </div></div></div>
 
  
-{% assign success_stories = site.success_stories | size %}
-{% if success_stories > 0 %}
+{%- assign success_stories = site.success_stories | size -%}
+{%- if success_stories > 0 -%}
 
-<h2><a href="/success_stories.html">Success stories</a></h2>
+<h2 id="success_stories"><a href="/success_stories.html">Success stories</a></h2>
 
-{% assign styles_pos = "light|grey-light|dark,dark|grey-light|light,light|light|grey-light,grey-light|light|light,light|grey-light|light" | split: "," %}
-{% assign counter = 0 %}
-{% for story in site.success_stories reversed limit:5 %}
-{% capture content_color_pos %}{% cycle 'bottom', 'top', 'top' %}{% endcapture %}
-{% capture content_color %}{% cycle 'dark', 'dark', 'light', 'grey-light', 'grey-light' %}{% endcapture %}
-{% capture title_class %}{% cycle '', 'inverse' %}{% endcapture %}
-{% capture content_color_text %}{% cycle 'grey-light', 'grey-light', 'light', 'light' %}{% endcapture %}
-{% capture content_text_pos %}{% cycle 'right', 'left' %}{% endcapture %}
-{% capture content_reverse %}{% cycle '', 'content-row-reverse' %}{% endcapture %}
+{%- assign styles_pos = "light|grey-light|dark,dark|grey-light|light,light|light|grey-light,grey-light|light|light,light|grey-light|light" | split: "," -%}
+{%- assign counter = 0 -%}
+{%- for story in site.success_stories reversed limit:5 -%}
+{%- capture content_color_pos -%}{%- cycle 'bottom', 'top', 'top' -%}{%- endcapture -%}
+{%- capture content_color -%}{%- cycle 'dark', 'dark', 'light', 'grey-light', 'grey-light' -%}{%- endcapture -%}
+{%- capture title_class -%}{%- cycle '', 'inverse' -%}{%- endcapture -%}
+{%- capture content_color_text -%}{%- cycle 'grey-light', 'grey-light', 'light', 'light' -%}{%- endcapture -%}
+{%- capture content_text_pos -%}{%- cycle 'right', 'left' -%}{%- endcapture -%}
+{%- capture content_reverse -%}{%- cycle '', 'content-row-reverse' -%}{%- endcapture -%}
 
-{% if content_color_pos == 'top' and content_color == 'dark' %}
-{% assign title_class = 'inverse' %}
-{% else %}
-{% assign title_class = '' %}
-{% endif %}
+{%- if content_color_pos == 'top' and content_color == 'dark' -%}
+	{%- assign title_class = 'inverse' -%}
+{%- else -%}
+	{%- assign title_class = '' -%}
+{%- endif -%}
 
 <div class="content-wrapper">
 <div class="content-{{ content_color }} content-{{ content_color_pos }}"></div>
@@ -97,19 +97,19 @@ navigation_weight: 6
 	<div class="content-block-section ">
 		<h3 class="{{ title_class }}">{{ story.title }}</h3>
 		<div class="content-block-text-{{ content_text_pos }} content-{{ content_color_text }} ">
-			{% assign num_words = story.content | number_of_words %}
-			{% if num_words > 80 %}
-
-			{% capture summary %}{{ story.content | truncatewords: 80 }}
-			<em><a href="{{ story.url }}">Continue reading</a></em>{% endcapture %}
-			{{ summary | markdownify }}
-			{% else %}
-			{{ story.content | markdownify }}
-			{% endif %}
+			{%- assign num_words = story.content | number_of_words -%}
+			{%- if num_words > 80 -%}
+				{%- capture summary -%}{{ story.content | truncatewords: 80 }}
+				<em><a href="{{ story.url }}">Continue reading</a></em>
+				{%- endcapture -%}
+				{{ summary | markdownify }}
+			{%- else -%}
+				{{ story.content | markdownify }}
+			{%- endif -%}
 		</div>
 	</div>
 </div></div></div>
-{% assign counter = counter | plus: 1 %}
-{% endfor %}
+{%- assign counter = counter | plus: 1 -%}
+{%- endfor -%}
 
-{% endif %}
+{%- endif -%}
