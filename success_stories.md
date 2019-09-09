@@ -12,10 +12,10 @@ title: Success Stories
 
 {% if story.image %}
 <img src="/assets/{{story.image}}" class="success_story_large"/>
-{% endif %}
-{% assign num_words = story.content | number_of_words %}
+{%- endif -%}
+{%- assign num_words = story.content | number_of_words -%}
 {% if num_words > 100 %}
-{{ story.content | truncatewords: 100 | markdownify}}
+{{ story.content | truncatewords: 100 | markdownify }}
 _[Continue reading]({{ story.url }})_
 {% else %}
 {{ story.content | markdownify }}
@@ -23,4 +23,4 @@ _[Continue reading]({{ story.url }})_
 
 <div class='clear'></div>
 
-{% endfor %}
+{%- endfor -%}

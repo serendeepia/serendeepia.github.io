@@ -194,15 +194,54 @@ header nav.main-nav ul li a {
   padding: 8px 0 2px 0;
   text-decoration: none;
   border-bottom: 2px rgba(256, 256, 256, 0.12) solid;
+  transition: border-bottom-color 0.7s ease-out;
 }
 
 header nav.main-nav ul li:not(.active) a:hover {
   border-bottom: 2px $color-grey-dark solid;
+  transition: border-bottom-color .3s ease-out;
 }
 
-header nav.main-nav ul li.active a {
+header nav.main-nav ul li.active > a {
   border-bottom: 2px $color-black-light solid;
   color: $color-black;
+}
+
+header nav.main-nav ul li ul.nav-submenu {
+  background-color: rgba(256, 256, 256, 0.90);
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  transition: all 0.5s ease;
+  padding: 10px;
+  margin-left: -16px;
+  display: none;
+  z-index: 1;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+header nav.main-nav ul li ul.nav-submenu li {
+  display: block;
+}
+
+header nav.main-nav ul li ul.nav-submenu li a {
+  text-align: left;
+  text-transform: none;
+}
+
+header nav.main-nav ul li:hover > ul,
+header nav.main-nav ul li:focus-within > ul,
+header nav.main-nav ul li ul.nav-submenu:hover,
+header nav.main-nav ul li ul.nav-submenu:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+header nav.main-nav ul li ul.nav-submenu li {
+  clear: both;
 }
 
 header .icon {
@@ -2221,6 +2260,16 @@ div.our-offer {
 
   header nav.main-nav ul li.active a {
     border-bottom: none;
+  }
+
+  header nav.main-nav ul li:hover > ul,
+  header nav.main-nav ul li:focus-within > ul,
+  header nav.main-nav ul li ul.nav-submenu:hover,
+  header nav.main-nav ul li ul.nav-submenu:focus {
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    transition: all 0.5s ease;
   }
 
 }
