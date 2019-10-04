@@ -217,7 +217,7 @@ header nav.main-nav ul li ul.nav-submenu {
   margin-left: -16px;
   display: none;
   z-index: 1;
-  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
   text-align: left;
 }
 
@@ -1574,6 +1574,14 @@ hr {
   margin: 0 0 20px;
 }
 
+div.left {
+  float: left;
+}
+
+div.right {
+  float: right;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -1661,11 +1669,17 @@ div.careers-slogan {
   color: $background-color;
 }
 
+div.product-header {
+  position: relative;
+  height: 80vh;
+  margin-bottom: -120px;
+}
+
 div.product-image {
   -webkit-filter: blur(3px);
   filter: blur(3px);
   width: 100%;
-  height: 1100px;
+  height: 100%;
   z-index: -1;
   position: absolute;
   top: 0;
@@ -1673,46 +1687,128 @@ div.product-image {
 
 div.product-image img {
   width: 100%;
-  height: 1100px;
-  filter: brightness(50%);
+  height: 100%;
+  filter: brightness(75%);
+}
+
+div.product-claims {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+div.product-claims div {
+  width: 700px;
+  margin: 0 auto;
+}
+
+div.product-claims h2, div.product-claims h3, div.product-claims h4 {
+  //text-align: center;
+  max-width: 600px;
+  margin: 0.3em 0;
+  color: white;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
+  word-spacing: 0.05em;
+  //text-shadow: 0 0 2px #000000;
+}
+
+div.product-claims h2 {
+  margin: 80px 0 0.6em 0;
+  font-size: 320%;
+}
+
+div.product-claims h3 {
+  font-size: 160%;
+}
+
+div.product-claims h4 {
+  max-width: 600px;
+  font-size: 110%;
+  font-weight: normal;
+}
+
+div.product-claims a {
+  text-align: center;
+}
+
+div.product-claims div.call-to-action {
+  max-width: 700px;
+  margin: 3em auto 0 auto;
+}
+
+div.product-claims div.call-to-action a {
+  text-shadow: 0 0 1px #000000;
 }
 
 div.product-content {
-  color: $background-color;
-  margin: 96px 0;
-  position: relative;
-}
-
-div.product-content p {
-  text-shadow: 1px 1px #000000;
-  text-align: center;
-}
-
-div.product-content h2 {
-  text-align: center;
-  color: white;
+  width: 80vw;
+  margin: 0 auto 32px auto;
+  background-color: $background-color;
 }
 
 div.product-content-block {
-  margin: 64px auto 0 auto;
-  max-width: 860px;
-  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 96px 32px 96px 32px;
 }
 
 div.product-content-image {
-  width: 380px;
-  float: left;
-  margin: 24px 0 0 0;
+  max-width: 380px;
+  max-height: 380px;
+}
+
+div.product-content-code {
+  max-width: 380px;
+  width: 100%;
+}
+
+div.product-content-code figure {
+  margin: 0;
+  font-size: 70%;
+  line-height: 1em;
 }
 
 div.product-content-text {
   max-width: 400px;
+  width: 100%;
+}
+
+div.product-content-text {
+  font-size: 85%;
+}
+
+div.product-content-text ul {
+  padding-inline-start: 20px;
+  list-style-type: circle;
+}
+
+div.product-content-text h5 {
+  margin-top: 0;
+  font-size: 105%;
+}
+
+div.product-content div.left {
+  float: left;
+  margin-right: 32px;
+}
+
+div.product-content-text a {
+  margin: 32px 0 16px 0;
+}
+
+div.product-content-text-action-right {
   float: right;
 }
 
-div#product-form-container {
+div.product-content div.right {
+  float: right;
+  margin-left: 32px;
+}
+
+div.product-form-container {
   max-width: 490px;
-  margin: 96px auto 0 auto;
+  margin: 64px auto 0 auto;
 }
 
 div.background-primary {
