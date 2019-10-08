@@ -22,36 +22,36 @@
                         {{ page.call-to-action }}
                     </a>
                 </div>
+                {%- endif -%}
+
+                {%- if page.landing-form -%}
+                <div class="product-form-container">
+                    <form id="form-{{ page.title | slugify }}">
+                        <p style="text-align: start; padding: 0;">{{ page.landing-form }}</p>
+                        <div id="product-form-info" class="form-group">
+                            <input type="hidden" name="product" value="{{ page.title | slugify}}"/>
+                            <input type="email" name="email" id="email" required="required" class="form-control form-inline"
+                                   style="width: 300px; margin-right: 20px; margin-bottom: 16px; display: inline;" placeholder="Email address">
+                            <button type="submit" id="submit-form" class="btn btn-secondary form-inline"
+                                    style="min-width: 100px; height: 48px; font-weight: bold;">
+                                {%- if page.landing-form-button -%}
+                                {{ page.landing-form-button }}
+                                {%- else -%}
+                                Submit
+                                {%- endif -%}
+                            </button>
+                        </div>
+                    </form>
+                    <p style="text-align: start; display: none;" id="thanks-text">Done!</p>
+                </div>
+                {%- endif -%}
             </div>
-            {%- endif -%}
 
         </div>
     </div>
 
     <div class="product-content">
         {{ content }}
-
-        {%- if page.landing-form -%}
-        <div class="product-form-container">
-            <form id="form-{{ page.title | slugify }}">
-                <p style="text-align: start; padding: 0;">{{ page.landing-form }}</p>
-                <div id="product-form-info" class="form-group">
-                    <input type="hidden" name="product" value="{{ page.title | slugify}}"/>
-                    <input type="email" name="email" id="email" required="required" class="form-control form-inline"
-                           style="width: 300px; margin-right: 20px; margin-bottom: 16px; display: inline;" placeholder="Email address">
-                    <button type="submit" id="submit-form" class="btn btn-secondary form-inline"
-                            style="min-width: 100px; height: 48px; font-weight: bold;">
-                        {%- if page.landing-form-button -%}
-                        {{ page.landing-form-button }}
-                        {%- else -%}
-                        Submit
-                        {%- endif -%}
-                    </button>
-                </div>
-            </form>
-            <p style="text-align: start; display: none;" id="thanks-text">Done!</p>
-        </div>
-        {%- endif -%}
     </div>
 
 </section>

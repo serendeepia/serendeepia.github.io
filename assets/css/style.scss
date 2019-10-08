@@ -1698,7 +1698,7 @@ div.product-claims {
 }
 
 div.product-claims div {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -1750,7 +1750,7 @@ div.product-content {
 div.product-content-block {
   margin: 0 auto;
   max-width: 900px;
-  padding: 96px 32px 96px 32px;
+  padding: 64px 32px 64px 32px;
 }
 
 div.product-content-image {
@@ -1770,11 +1770,7 @@ div.product-content-code figure {
 }
 
 div.product-content-text {
-  max-width: 400px;
-  width: 100%;
-}
-
-div.product-content-text {
+  max-width: 480px;
   font-size: 85%;
 }
 
@@ -1788,27 +1784,37 @@ div.product-content-text h5 {
   font-size: 105%;
 }
 
-div.product-content div.left {
+div.product-feature-left {
   float: left;
-  margin-right: 32px;
+  margin-right: 40px;
+  margin-bottom: 12px;
+}
+
+div.product-feature-right {
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 12px;
+}
+
+div.product-text-right {
+  float: right;
+}
+
+div.product-text-left {
+  float: left;
 }
 
 div.product-content-text a {
   margin: 32px 0 16px 0;
 }
 
-div.product-content-text-action-right {
-  float: right;
-}
-
-div.product-content div.right {
-  float: right;
-  margin-left: 32px;
-}
-
-div.product-form-container {
+div.product-claims div.product-form-container {
   max-width: 490px;
-  margin: 64px auto 0 auto;
+  margin: 96px 0 0 0;
+}
+
+div.product-claims div.product-form-container p {
+  color: $background-color;
 }
 
 div.background-primary {
@@ -1943,6 +1949,80 @@ div.our-offer {
   background: $background-color;
 }
 
+@media screen and (max-width: 1200px) {
+
+  div.product-content-image {
+    max-width: 360px;
+    max-height: 360px;
+  }
+
+  div.product-content-code {
+    max-width: 360px;
+  }
+
+  div.product-content-text {
+    max-width: 430px;
+  }
+
+}
+
+@media screen and (max-width: 1110px) {
+
+  div.product-content-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  div.product-content-code {
+    max-width: 300px;
+  }
+
+  div.product-content-text {
+    max-width: 360px;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+
+  div.product-content-image {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+  }
+
+  div.product-content-image img {
+    width: 100%;
+  }
+
+  div.product-content-code {
+    max-width: none;
+  }
+
+  div.product-content-text {
+    max-width: none;
+  }
+
+  div.product-feature-left {
+    float: none;
+    margin-right: 0;
+  }
+
+  div.product-feature-right {
+    float: none;
+    margin-left: 0;
+  }
+
+  div.product-text-right {
+    float: none;
+  }
+
+  div.product-text-left {
+    float: none;
+  }
+
+}
+
 @media screen and (max-width: 880px) {
 
   header, footer, form {
@@ -1959,6 +2039,10 @@ div.our-offer {
   nav.main-nav ul li.right,
   nav.main-nav ul li {
     float: none;
+  }
+
+  div.wrapper-main {
+    padding-top: 116px;
   }
 
   div.container-fluid-how {
@@ -1991,10 +2075,6 @@ div.our-offer {
 
 @media screen and (max-width: 840px) {
 
-  div.wrapper-main {
-    padding-top: 116px;
-  }
-
   div.container-fluid {
     max-width: 700px;
     margin-right: auto;
@@ -2018,25 +2098,8 @@ div.our-offer {
     padding: 2px 10px 12px 10px;
   }
 
-  div.product-content-block {
-    margin: 16px auto 0 auto;
-    max-width: 820px;
-  }
-
-  div.product-content-image {
-    width: 400px;
-    float: none;
-    margin: 24px auto;
-  }
-
-  div.product-content-text {
-    max-width: 600px;
-    margin: 0 auto;
-    float: none;
-  }
-
-  div#product-form-container {
-    margin: 96px auto 0 auto;
+  div.product-form-container {
+    margin: 128px auto 0 auto;
   }
 
 }
@@ -2055,7 +2118,7 @@ div.our-offer {
     padding-right: 32px;
   }
 
-  div.slogan, div.product-content {
+  div.slogan {
     margin: 64px 0px;
     border-radius: 0px;
   }
@@ -2097,6 +2160,11 @@ div.our-offer {
     margin-left: -6px;
     margin-right: -6px;
   }
+
+  div.call-to-action {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 
@@ -2115,9 +2183,14 @@ div.our-offer {
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px;
   }
+
 }
 
 @media screen and (max-width: 600px) {
+
+  div.product-content {
+    width: 100%;
+  }
 
   footer div.footer_social {
     padding-right: 0;
@@ -2194,86 +2267,10 @@ div.our-offer {
     width: 100%;
     height: auto;
   }
-}
 
-@media print, screen and (max-width: 500px) {
-
-  div.careers-image {
-    max-height: 400px;
+  div.product-content-block {
+    padding: 32px 16px;
   }
-
-  div.product-image {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    width: auto;
-    height: auto;
-    z-index: 0;
-    position: relative;
-  }
-
-  div.product-image img {
-    width: auto;
-    height: auto;
-    filter: brightness(100%);
-  }
-
-  div.product-content {
-    color: $foreground-color;
-    margin: 0;
-  }
-
-  div.product-content p {
-    text-shadow: none;
-  }
-
-  div.product-content h2 {
-    text-align: center;
-    color: $color-primary;
-  }
-
-  div.product-content-image {
-    display: none;
-  }
-
-  div#product-form-container {
-    margin: 80px auto 0 auto;
-  }
-
-  div.wrapper-main {
-    padding-top: 70px;
-  }
-
-  footer {
-    padding: 40px 0 60px 0;
-  }
-
-  section p, section h2, section h3, section h4, header, footer, form {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  div.how_col, div.how_col_fill {
-    border-radius: 0;
-    padding: 2px 0 12px 0;
-  }
-
-  div.logo_col {
-    padding: 10px 10px;
-  }
-
-  header {
-    padding: 8px 8px 4px 8px;
-  }
-
-  img.member {
-    width: 200px;
-    height: 200px;
-  }
-
-  div.slogan p cite {
-    font-size: 1.3em;
-  }
-
 }
 
 @media screen and (max-width: 560px) {
@@ -2366,6 +2363,54 @@ div.our-offer {
     opacity: 0;
     display: block;
     transition: all 0.5s ease;
+  }
+
+  div.wrapper-main {
+    padding-top: 70px;
+  }
+
+}
+
+
+@media print, screen and (max-width: 500px) {
+
+  div.careers-image {
+    max-height: 400px;
+  }
+
+  div.product-form-container {
+    margin: 80px auto 0 auto;
+  }
+
+  footer {
+    padding: 40px 0 60px 0;
+  }
+
+  section p, section h2, section h3, section h4, header, footer, form {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  div.how_col, div.how_col_fill {
+    border-radius: 0;
+    padding: 2px 0 12px 0;
+  }
+
+  div.logo_col {
+    padding: 10px 10px;
+  }
+
+  header {
+    padding: 8px 8px 4px 8px;
+  }
+
+  img.member {
+    width: 200px;
+    height: 200px;
+  }
+
+  div.slogan p cite {
+    font-size: 1.3em;
   }
 
 }

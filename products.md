@@ -5,6 +5,7 @@ navigation_weight: 5
 ---
 
 {%- for product in site.products reversed -%}
+{%- if product.date < site.time -%}
 {%- capture content_text_pos -%}{%- cycle 'right', 'left' -%}{%- endcapture -%}
 {%- capture content_reverse -%}{%- cycle '', 'content-row-reverse' -%}{%- endcapture -%}
 
@@ -21,4 +22,5 @@ navigation_weight: 5
 		</div>
 	</div>
 </div></div></div>
+{%- endif -%}
 {%- endfor -%}
