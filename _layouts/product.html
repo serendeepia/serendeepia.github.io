@@ -2,45 +2,56 @@
 
 <section class="news">
 
-    {%- if page.image -%}
-        <div class="product-image"><img src="/assets/{{page.image}}"/></div>
-    {%- else -%}
-        <div class="product-image background-primary"></div>
-    {%- endif -%}
+    <div class="product-header">
+        {%- if page.image -%}
+            <div class="product-image"><img src="/assets/{{page.image}}"/></div>
+        {%- else -%}
+            <div class="product-image background-primary"></div>
+        {%- endif -%}
+        <div class="product-claims">
+            <div>
+                <h2>{{ page.title }}</h2>
+                {%- if page.claim-1 -%}<h3>{{ page.claim-1 }}</h3>{%- endif -%}
+                {%- if page.claim-2 -%}<h4>{{ page.claim-2 }}</h4>{%- endif -%}
+
+                {%- if page.call-to-action -%}
+                <div class="call-to-action">
+                    <a class="btn btn-secondary form-inline"
+                       style="min-width: 100px; padding: 8px 12px; font-weight: bold;"
+                       href="{{ page.call-to-action-link || '/contact.html' }}">
+                        {{ page.call-to-action }}
+                    </a>
+                </div>
+                {%- endif -%}
+
+                {%- if page.landing-form -%}
+                <div class="product-form-container">
+                    <form id="form-{{ page.title | slugify }}">
+                        <p style="text-align: start; padding: 0;">{{ page.landing-form }}</p>
+                        <div id="product-form-info" class="form-group">
+                            <input type="hidden" name="product" value="{{ page.title | slugify}}"/>
+                            <input type="email" name="email" id="email" required="required" class="form-control form-inline"
+                                   style="width: 300px; margin-right: 20px; margin-bottom: 16px; display: inline;" placeholder="Email address">
+                            <button type="submit" id="submit-form" class="btn btn-secondary form-inline"
+                                    style="min-width: 100px; height: 48px; font-weight: bold;">
+                                {%- if page.landing-form-button -%}
+                                {{ page.landing-form-button }}
+                                {%- else -%}
+                                Submit
+                                {%- endif -%}
+                            </button>
+                        </div>
+                    </form>
+                    <p style="text-align: start; display: none;" id="thanks-text">Done!</p>
+                </div>
+                {%- endif -%}
+            </div>
+
+        </div>
+    </div>
 
     <div class="product-content">
-        <h2>{{ page.title }}</h2>
-        <div class="product-content-block">
-            <div class="product-content-image">
-                <a href="/assets/{{page.image}}" target="_blank">
-                    <img src="/assets/{{page.image}}"/>
-                </a>
-            </div>
-            <div class="product-content-text">{{ content }}</div>
-            <div style="clear: both;"></div>
-        </div>
-
-        {%- if page.landing-form -%}
-        <div id="product-form-container">
-        <form id="form-{{ page.title | slugify }}">
-            <p style="text-align: start; padding: 0;">{{ page.landing-form }}</p>
-            <div id="product-form-info" class="form-group">
-                <input type="hidden" name="product" value="{{ page.title | slugify}}"/>
-                <input type="email" name="email" id="email" required="required" class="form-control form-inline"
-                       style="width: 300px; margin-right: 20px; margin-bottom: 16px; display: inline;" placeholder="Email address">
-                <button type="submit" id="submit-form" class="btn btn-secondary form-inline"
-                        style="min-width: 100px; height: 48px; font-weight: bold;">
-                    {%- if page.landing-form-button -%}
-                        {{ page.landing-form-button }}
-                    {%- else -%}
-                        Submit
-                    {%- endif -%}
-                </button>
-            </div>
-        </form>
-        <p style="text-align: start; display: none;" id="thanks-text">Done!</p>
-        </div>
-        {%- endif -%}
+        {{ content }}
     </div>
 
 </section>

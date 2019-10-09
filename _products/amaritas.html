@@ -1,0 +1,101 @@
+---
+layout: product
+date: 2019-10-01
+title: Amaritas
+description: Language is a gift to humanity, but sometimes it can become a dangerous venom. Amaritas is an Artificial Intelligence service that automatically detects harming speech.
+image: products/amaritas/hero.jpg
+landing-form: Notify me when the beta version is open
+claim-1: Keeping conversations safe and healthy
+claim-2: Protect the most vulnerable groups and to keep online discussions healthy and effective for everyone
+_call-to-action: Get Started
+_call-to-action-link: #get-started
+---
+
+<div class="product-content-block">
+    <div class="product-content-image product-feature-left">
+        <img src="/assets/products/amaritas/feature1.jpg"/>
+    </div>
+    <div class="product-content-text product-text-left">
+        <h5>Detect harming speech</h5>
+        <p>Language is a gift to humanity, but sometimes it can become a dangerous venom. Amaritas is an Artificial Intelligence service that automatically detects harming speech:</p>
+       <ul>
+            <li>Threats, Violence, Hostility, Bullying.</li>
+            <li>Insults, Resentment, Antipathy, Sourness.</li>
+            <li>Obscenity, Sexual Degradation, Nastiness.</li>
+            <li>Hatred, Rancour, Identity Hate.</li>
+            <li>Male Chauvinism.</li>
+        </ul>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+<div class="product-content-block">
+    <div class="product-content-image product-feature-right">
+        <img src="/assets/products/amaritas/feature2.jpg"/>
+    </div>
+    <div class="product-content-text product-text-right">
+        <h5>Supported Languages</h5>
+        <p>Amaritas is currently available for <b>Spanish</b> and <b>English</b>.</p>
+        <p>If you need help fighting harming speech in another language, please <a href="/contact.html">let us know</a>.</p>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+<div class="product-content-block">
+    <div class="product-content-code product-feature-left">
+{% highlight javascript %}
+// request
+{
+    "language": "spanish",
+    "detect" : [ "TOXICITY", "UNSUBSTANTIAL" ]
+    "text": "bla bla bla"
+}
+
+// response
+{
+    "score": {
+        "TOXICITY": 0.82,
+        "UNSUBSTANTIAL": 0.82,
+        }
+}
+{% endhighlight %}
+    </div>
+    <div class="product-content-text product-text-left">
+        <h5>API</h5>
+        <p>Start using Amaritas in minutes thanks to our simple json API. You only have to create an API key and you could start making requests. You can also start checking the integration with our mockup API.</p>
+        {%- comment -%}
+        <div class="product-text-right">
+            <a href="https://github.com/serendeepia" class="btn btn-primary form-inline">
+                Check API documentation</a>
+        </div>
+        {%- endcomment -%}
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+<div class="product-content-block">
+    <div class="product-content-image product-feature-right">
+        <img src="/assets/products/amaritas/feature3.jpg"/>
+    </div>
+    <div class="product-content-text product-text-right">
+        <h5>Real Time Products</h5>
+        <p>Amaritas allows you to keep safe and healthy online conversations at scale, supporting up to millions of concurrent conversations in real time. Some of the use cases:</p>
+        <ul>
+            <li>Online and workplace harassment detection and prevention.</li>
+            <li>Fighting against bullying in social media, schools, forums and other platforms.</li>
+            <li>Automatic moderation of forum discussions.</li>
+            <li>Early detection of sexting, grooming, violence and abuse.</li>
+            <li>Fighting terrorist indoctrination and hate speech.</li>
+            <li>Measuring the level of male chauvinism in conversations.</li>
+        </ul>
+        {%- comment -%}
+        <a href="https://github.com/serendeepia" class="btn btn-primary form-inline">Check an example in GitHub</a>
+        {%- endcomment -%}
+    </div>
+    <div style="clear: both;"></div>
+</div>
+
+{%- comment -%}
+<h3>Free trial</h3>
+<p>If you are interested in Amaritas service and want to give it a try, please <a href="/contact.html">contact us for a demo and a free trial period</a>. You would be able to see for yourself how toxic speech is easily detected and managed with Amaritas.</p>
+{%- endcomment -%}

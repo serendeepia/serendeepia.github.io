@@ -51,7 +51,9 @@
                     {%- if p.title == 'Products' -%}
                         <ul class="nav-submenu">
                         {%- for product in site.products reversed -%}
-                            <li><a href="{{ product.url }}">{{ product.title }}</a></li>
+                            {%- if product.date < site.time -%}
+                                <li><a href="{{ product.url }}">{{ product.title }}</a></li>
+                            {%- endif -%}
                         {%- endfor -%}
                         </ul>
                     {%- elsif p.title == 'Solutions' -%}
