@@ -3,7 +3,17 @@ layout: mylayout
 title: Slides
 #navigation_weight: 0
 ---
-{%- for slides in site.slides reversed -%}
-_{{slides.date | date_to_string }}_ - [{{slides.title}}]({{slides.url}})
+{%- for slide in site.slides reversed -%}
+{%- if slide.permalink -%}
+[{{slide.title}}]({{slide.url}})
  <br>
+{%- endif -%}
+{%- endfor -%}
+<br>
+
+{%- for slide in site.slides reversed -%}
+{%- unless slide.permalink -%}
+_{{slide.date | date_to_string }}_ - [{{slide.title}}]({{slide.url}})
+ <br>
+{%- endunless -%}
 {%- endfor -%}
