@@ -3,6 +3,7 @@ podTemplate(containers: [
 ]) {
 	node(POD_LABEL) {
         stage('Run shell') {
+            git 'https://github.com/serendeepia/serendeepia.github.io.git'
             container('jekyll') {
                 sh '/srv/jekyll build'
             }
