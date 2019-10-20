@@ -1,5 +1,5 @@
 podTemplate(containers: [
-	containerTemplate(name: 'jekyll', image: 'jekyll/jekyll:3.8', args: '-u root:root -v "${WORKSPACE}:/srv/jekyll"'),
+	containerTemplate(name: 'jekyll', image: 'jekyll/jekyll:3.8'),
 ]) {
 	node(POD_LABEL) {
         stage('Run shell') {
