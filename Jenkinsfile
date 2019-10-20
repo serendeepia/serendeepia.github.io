@@ -1,13 +1,8 @@
 pipeline {
-    agent
-    {
-        docker
-        {
+    agent {
+        docker {
             image 'jekyll/jekyll:3.8'
-            args '''
-                -u root:root
-                -v "${WORKSPACE}:/srv/jekyll"
-            '''
+            args '-u root:root -v "${WORKSPACE}:/srv/jekyll"'
         }
     }
     stages {
