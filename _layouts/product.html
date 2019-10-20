@@ -16,9 +16,15 @@
 
                 {%- if page.call-to-action -%}
                 <div class="call-to-action">
+                    {%- if page.call-to-action-link -%}
                     <a class="btn btn-secondary form-inline"
                        style="min-width: 100px; padding: 8px 12px; font-weight: bold;"
-                       href="{{ page.call-to-action-link || '/contact.html' }}">
+                       href="{{ page.call-to-action-link }}">
+                    {%- else -%}
+                    <a class="btn btn-secondary form-inline"
+                       style="min-width: 100px; padding: 8px 12px; font-weight: bold;"
+                       href="/contact.html">
+                    {%- endif -%}
                         {{ page.call-to-action }}
                     </a>
                 </div>
