@@ -2,8 +2,10 @@ podTemplate(containers: [
 	containerTemplate(name: 'jekyll', image: 'jekyll/jekyll:3.8'),
 ]) {
 	node(POD_LABEL) {
+	    stage('SCM Checkout') {
+	      checkout scm
+	    }
         stage('Run shell') {
-            git 'https://github.com/serendeepia/serendeepia.github.io.git'
             container('jekyll') {
                 sh '/srv/jekyll build'
             }
