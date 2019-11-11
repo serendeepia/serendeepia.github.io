@@ -1,7 +1,7 @@
 ---
 layout: mylayout
 title: Publications
-navigation_weight: 4
+# navigation_weight: 4
 ---
 
 ## 2018
