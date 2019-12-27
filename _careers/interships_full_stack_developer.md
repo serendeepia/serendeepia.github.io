@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Internship Software Engineer
-open: true
+open: false
 weight: 101
 ---
 

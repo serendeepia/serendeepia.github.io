@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Internship Machine Learning
-open: true
+open: false
 weight: 100
 ---
 
