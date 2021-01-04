@@ -44,6 +44,7 @@
     </a>
     <nav class="main-nav" id="main-nav">
         <ul class="nav nav-tabs">
+            {% comment %}
             {%- assign navigation_pages = site.html_pages | sort: 'navigation_weight' -%}
             {%- for p in navigation_pages -%}{%- if p.navigation_weight -%}
                 <li {% if p.url == page.url %} class="active" {% endif %}>
@@ -64,6 +65,7 @@
                     {%- endif -%}
                 </li>
             {%- endif -%}{%- endfor -%}
+            {% endcomment %}
         </ul>
     </nav>
     <div style="clear: both"></div>
